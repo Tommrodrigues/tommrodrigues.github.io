@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Novela by Narative]]></title><description><![CDATA[This is my description that will be used in the meta tags and important for search results]]></description><link>https://novela.narative.co</link><image><url>https://novela.narative.co/icons/icon-512x512.png</url><title>Novela by Narative</title><link>https://novela.narative.co</link></image><generator>GatsbyJS</generator><lastBuildDate>Thu, 16 Apr 2020 16:19:28 GMT</lastBuildDate><atom:link href="https://novela.narative.co/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[My first post using Novela by Narative]]></title><description><![CDATA[With the growing community interest in Gatsby, we hope to create more resources that make it easier for anyone to grasp the power of this incredible tool.]]></description><link>https://novela.narative.co/My-first-post-using-Novela-by-Narative</link><guid isPermaLink="false">https://novela.narative.co/My-first-post-using-Novela-by-Narative</guid><dc:creator><![CDATA[Dennis Brotzky]]></dc:creator><pubDate>Tue, 30 Apr 2019 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tom Rodrigues's Blog]]></title><description><![CDATA[A blog for Tom Rodrigues]]></description><link>https://tommrodrigues.com</link><image><url>https://tommrodrigues.com/icons/icon-512x512.png</url><title>Tom Rodrigues&apos;s Blog</title><link>https://tommrodrigues.com</link></image><generator>GatsbyJS</generator><lastBuildDate>Thu, 16 Apr 2020 18:19:55 GMT</lastBuildDate><atom:link href="https://tommrodrigues.com/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[My $99 Apple Smart Home]]></title><description><![CDATA[With the growing community interest in Gatsby, we hope to create more resources that make it easier for anyone to grasp the power of this incredible tool.]]></description><link>https://tommrodrigues.com/My-dollar99-Apple-Smart-Home</link><guid isPermaLink="false">https://tommrodrigues.com/My-dollar99-Apple-Smart-Home</guid><dc:creator><![CDATA[Tom Rodrigues]]></dc:creator><pubDate>Thu, 16 Apr 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
 
@@ -6,9 +6,9 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 
 /* @jsx mdx */
 var _frontmatter = {
-  &quot;title&quot;: &quot;My first post using Novela by Narative&quot;,
-  &quot;author&quot;: &quot;Dennis Brotzky&quot;,
-  &quot;date&quot;: &quot;2019-04-30T00:00:00.000Z&quot;,
+  &quot;title&quot;: &quot;My $99 Apple Smart Home&quot;,
+  &quot;author&quot;: &quot;Tom Rodrigues&quot;,
+  &quot;date&quot;: &quot;2020-04-16T00:00:00.000Z&quot;,
   &quot;hero&quot;: &quot;./images/hero.jpg&quot;,
   &quot;excerpt&quot;: &quot;With the growing community interest in Gatsby, we hope to create more resources that make it easier for anyone to grasp the power of this incredible tool.&quot;
 };
@@ -31,113 +31,22 @@ return function MDXContent(_ref) {
   return mdx(MDXLayout, _extends({}, layoutProps, props, {
     components: components,
     mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;p&quot;, null, &quot;My first post using &quot;, mdx(&quot;inlineCode&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;@narative/gatsby-theme-novela&quot;), &quot;. Novela is built by the team at &quot;, mdx(&quot;a&quot;, _extends({
+  }), mdx(&quot;p&quot;, null, &quot;If you\u2019d told me 2 years ago that I could make my home smart for under $99, I wouldn\u2019t have believed you. But, over the last year and a half, I\u2019ve achieved just that.&quot;), mdx(&quot;p&quot;, null, &quot;Back when &quot;, mdx(&quot;a&quot;, _extends({
     parentName: &quot;p&quot;
   }, {
-    &quot;href&quot;: &quot;https://narative.co&quot;,
+    &quot;href&quot;: &quot;https://www.apple.com/ios/home/&quot;,
     &quot;target&quot;: &quot;_blank&quot;,
     &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;Narative&quot;), &quot;, and built for everyone that loves the web.&quot;), mdx(&quot;h2&quot;, {
-    &quot;id&quot;: &quot;headers&quot;
-  }, &quot;Headers&quot;), mdx(&quot;h1&quot;, {
-    &quot;id&quot;: &quot;h1&quot;
-  }, &quot;H1&quot;), mdx(&quot;p&quot;, null, &quot;It is recommended to NOT use H1s as it is reserved for the article heading. Any H1 is set as an H2.&quot;), mdx(&quot;h2&quot;, {
-    &quot;id&quot;: &quot;h2&quot;
-  }, &quot;H2&quot;), mdx(&quot;h3&quot;, {
-    &quot;id&quot;: &quot;h3&quot;
-  }, &quot;H3&quot;), mdx(&quot;h4&quot;, {
-    &quot;id&quot;: &quot;h4&quot;
-  }, &quot;H4&quot;), mdx(&quot;h5&quot;, {
-    &quot;id&quot;: &quot;h5&quot;
-  }, &quot;H5&quot;), mdx(&quot;h6&quot;, {
-    &quot;id&quot;: &quot;h6&quot;
-  }, &quot;H6&quot;), mdx(&quot;h2&quot;, {
-    &quot;id&quot;: &quot;emphasis&quot;
-  }, &quot;Emphasis&quot;), mdx(&quot;p&quot;, null, &quot;Emphasis, aka italics, with &quot;, mdx(&quot;em&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;asterisks&quot;), &quot; or &quot;, mdx(&quot;em&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;underscores&quot;), &quot;.&quot;), mdx(&quot;p&quot;, null, &quot;Strong emphasis, aka bold, with &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;asterisks&quot;), &quot; or &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;underscores&quot;), &quot;.&quot;), mdx(&quot;p&quot;, null, &quot;Combined emphasis with &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;asterisks and &quot;, mdx(&quot;em&quot;, {
-    parentName: &quot;strong&quot;
-  }, &quot;underscores&quot;)), &quot;.&quot;), mdx(&quot;p&quot;, null, &quot;Strikethrough uses two tildes. &quot;, mdx(&quot;del&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;Scratch this.&quot;)), mdx(&quot;h2&quot;, {
-    &quot;id&quot;: &quot;lists&quot;
-  }, &quot;Lists&quot;), mdx(&quot;ol&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ol&quot;
-  }, &quot;First ordered list item&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ol&quot;
-  }, &quot;Another item&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ol&quot;
-  }, &quot;Actual numbers don\u2019t matter, just that it\u2019s a number&quot;)), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, &quot;Unordered list can use asterisks&quot;)), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, &quot;Or minuses&quot;)), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, &quot;Or pluses&quot;)), mdx(&quot;h2&quot;, {
-    &quot;id&quot;: &quot;links&quot;
-  }, &quot;Links&quot;), mdx(&quot;p&quot;, null, mdx(&quot;a&quot;, _extends({
+  }), &quot;Apple\u2019s HomeKit&quot;), &quot; was released in 2014, the idea that I could control my entire home with my voice made me realise I was living in the future.&quot;), mdx(&quot;p&quot;, null, &quot;Yet, it became increasingly clear that HomeKit had two key limitations:\n1. High cost\n2. Lack of accessories&quot;), mdx(&quot;p&quot;, null, &quot;Was I really expected to pay $50 for a smart plug, $80 for an LED strip or $150 for a smart thermostat? Automating my home would\u2019ve cost thousands. Even if I were willing to pay, the products available were very limited.&quot;), mdx(&quot;p&quot;, null, &quot;Of course, as time went on, more HomeKit accessories came to market so the lack of accessories became less of a concern, but the high prices persisted.\nSo, without any broken promises or hidden catches, I\u2019ll walk you through how I made my smart home for less than $99.&quot;), mdx(&quot;p&quot;, null, &quot;Ready? Let\u2019s go.&quot;), mdx(&quot;h2&quot;, {
+    &quot;id&quot;: &quot;the-journey&quot;
+  }, &quot;The journey&quot;), mdx(&quot;p&quot;, null, &quot;My dreams of becoming a budget Tony Stark had been totally ruined until earlier last year when I learnt about &quot;, mdx(&quot;a&quot;, _extends({
     parentName: &quot;p&quot;
   }, {
-    &quot;href&quot;: &quot;https://www.google.com&quot;,
+    &quot;href&quot;: &quot;https://github.com/homebridge/homebridge&quot;,
     &quot;target&quot;: &quot;_blank&quot;,
     &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;I\u2019m an inline-style link&quot;)), mdx(&quot;p&quot;, null, mdx(&quot;a&quot;, _extends({
+  }), &quot;Homebridge&quot;), &quot;.&quot;), mdx(&quot;p&quot;, null, &quot;I couldn\u2019t quite believe it, Homebridge promised to add HomeKit support to pretty much anything you could think of. People were thrilled they could add HomeKit support to their pre-existing, but currently unsupported, smart devices into the Apple ecosystem.&quot;), mdx(&quot;p&quot;, null, &quot;At the same time, there was another group of people (me included) who saw another great opportunity: given a bit of time and effort, you could automate your home for a fraction of the cost.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;span&quot;, _extends({
     parentName: &quot;p&quot;
-  }, {
-    &quot;href&quot;: &quot;https://www.google.com&quot;,
-    &quot;title&quot;: &quot;Google&apos;s Homepage&quot;,
-    &quot;target&quot;: &quot;_blank&quot;,
-    &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;I\u2019m an inline-style link with title&quot;)), mdx(&quot;p&quot;, null, mdx(&quot;a&quot;, _extends({
-    parentName: &quot;p&quot;
-  }, {
-    &quot;href&quot;: &quot;https://www.mozilla.org&quot;,
-    &quot;target&quot;: &quot;_blank&quot;,
-    &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;I\u2019m a reference-style link&quot;)), mdx(&quot;p&quot;, null, mdx(&quot;a&quot;, _extends({
-    parentName: &quot;p&quot;
-  }, {
-    &quot;href&quot;: &quot;../blob/master/LICENSE&quot;
-  }), &quot;I\u2019m a relative reference to a repository file&quot;)), mdx(&quot;p&quot;, null, mdx(&quot;a&quot;, _extends({
-    parentName: &quot;p&quot;
-  }, {
-    &quot;href&quot;: &quot;http://slashdot.org&quot;,
-    &quot;target&quot;: &quot;_blank&quot;,
-    &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;You can use numbers for reference-style link definitions&quot;)), mdx(&quot;p&quot;, null, &quot;Or leave it empty and use the &quot;, mdx(&quot;a&quot;, _extends({
-    parentName: &quot;p&quot;
-  }, {
-    &quot;href&quot;: &quot;http://www.reddit.com&quot;,
-    &quot;target&quot;: &quot;_blank&quot;,
-    &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;link text itself&quot;), &quot;.&quot;), mdx(&quot;p&quot;, null, &quot;URLs and URLs in angle brackets will automatically get turned into links.\n&quot;, mdx(&quot;a&quot;, _extends({
-    parentName: &quot;p&quot;
-  }, {
-    &quot;href&quot;: &quot;http://www.example.com&quot;,
-    &quot;target&quot;: &quot;_blank&quot;,
-    &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;http://www.example.com&quot;), &quot; or &quot;, mdx(&quot;a&quot;, _extends({
-    parentName: &quot;p&quot;
-  }, {
-    &quot;href&quot;: &quot;http://www.example.com&quot;,
-    &quot;target&quot;: &quot;_blank&quot;,
-    &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;http://www.example.com&quot;), &quot; and sometimes\nexample.com (but not on Github, for example).&quot;), mdx(&quot;p&quot;, null, &quot;Some text to show that the reference links can follow later.&quot;), mdx(&quot;h2&quot;, {
-    &quot;id&quot;: &quot;images&quot;
-  }, &quot;Images&quot;), mdx(&quot;div&quot;, {
-    &quot;className&quot;: &quot;Image__Small&quot;
-  }, &quot;\n  &quot;, mdx(&quot;span&quot;, _extends({
-    parentName: &quot;div&quot;
   }, {
     &quot;className&quot;: &quot;gatsby-resp-image-wrapper&quot;,
     &quot;style&quot;: {
@@ -145,18 +54,18 @@ return function MDXContent(_ref) {
       &quot;display&quot;: &quot;block&quot;,
       &quot;marginLeft&quot;: &quot;auto&quot;,
       &quot;marginRight&quot;: &quot;auto&quot;,
-      &quot;maxWidth&quot;: &quot;1360px&quot;
+      &quot;maxWidth&quot;: &quot;1600px&quot;
     }
   }), &quot;\n      &quot;, mdx(&quot;span&quot;, _extends({
     parentName: &quot;span&quot;
   }, {
     &quot;className&quot;: &quot;gatsby-resp-image-background-image&quot;,
     &quot;style&quot;: {
-      &quot;paddingBottom&quot;: &quot;100%&quot;,
+      &quot;paddingBottom&quot;: &quot;66.625%&quot;,
       &quot;position&quot;: &quot;relative&quot;,
       &quot;bottom&quot;: &quot;0&quot;,
       &quot;left&quot;: &quot;0&quot;,
-      &quot;backgroundImage&quot;: &quot;url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAAIDAAAAAAAAAAAAAAAAAAIDAQQF/8QAFwEBAQEBAAAAAAAAAAAAAAAAAQIAA//aAAwDAQACEAMQAAAB60c0vKSAvWoCrhj/xAAcEAADAAEFAAAAAAAAAAAAAAAAAQIDEBESIkH/2gAIAQEAAQUC0Z7zNshVOst9aUI//8QAGREAAQUAAAAAAAAAAAAAAAAAAQACEBES/9oACAEDAQE/AQ21kT//xAAXEQADAQAAAAAAAAAAAAAAAAAAAREQ/9oACAECAQE/AaV7/8QAIBAAAQMCBwAAAAAAAAAAAAAAAAECITFhAxARE0FR4f/aAAgBAQAGPwLLw05ESq9ITiNZY26NsNVsQTJ//8QAHxABAAIBAwUAAAAAAAAAAAAAAQARITFBcVFhgbHw/9oACAEBAAE/IWLNWG+Eyyi1bEBWRvpnoDtFtqPJ5iXFq6dyV3J9Vn//2gAMAwEAAgADAAAAEI/3ff/EABgRAAIDAAAAAAAAAAAAAAAAAAABECFh/9oACAEDAQE/EGWZmKP/xAAXEQADAQAAAAAAAAAAAAAAAAABEBEx/9oACAECAQE/EDGIK//EAB4QAQACAQUBAQAAAAAAAAAAAAEAETEhQVFxkWHB/9oACAEBAAE/EFCC13D2aKjTNB6aRBp2Ctrl4NMse3jzf6/MRs6TAJYLcsVUjk6uIiJr1dj2xqXDdq8HFT//2Q==&apos;)&quot;,
+      &quot;backgroundImage&quot;: &quot;url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQCAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABUmncOmeR/8QAGRAAAgMBAAAAAAAAAAAAAAAAAQIAAxES/9oACAEBAAEFAlXpVrMDJmmNc5HRn//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABoQAAMAAwEAAAAAAAAAAAAAAAABERAhMVH/2gAIAQEABj8Ci0/St6Rw6S4//8QAGRABAAMBAQAAAAAAAAAAAAAAAQARITEQ/9oACAEBAAE/IcpBt10mkj28bVgiWOKe0Ql//9oADAMBAAIAAwAAABAQ/wD/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPxBH/8QAGhABAQEAAwEAAAAAAAAAAAAAAREAITFhQf/aAAgBAQABPxABvtSYHU0PL6QalCde4gOD9PcUiPGZeAQCFnWQXf/Z&apos;)&quot;,
       &quot;backgroundSize&quot;: &quot;cover&quot;,
       &quot;display&quot;: &quot;block&quot;
     }
@@ -165,22 +74,22 @@ return function MDXContent(_ref) {
   }, &quot;\n        &quot;, mdx(&quot;source&quot;, _extends({
     parentName: &quot;picture&quot;
   }, {
-    &quot;srcSet&quot;: [&quot;/static/891a8f706331d47474c3f2fd9906d926/2035a/article-image-2.webp 1360w&quot;],
-    &quot;sizes&quot;: &quot;(max-width: 1360px) 100vw, 1360px&quot;,
+    &quot;srcSet&quot;: [&quot;/static/d12174d1b827913eb8d32723a799b453/43d96/typing.webp 1600w&quot;],
+    &quot;sizes&quot;: &quot;(max-width: 1600px) 100vw, 1600px&quot;,
     &quot;type&quot;: &quot;image/webp&quot;
   })), &quot;\n        &quot;, mdx(&quot;source&quot;, _extends({
     parentName: &quot;picture&quot;
   }, {
-    &quot;srcSet&quot;: [&quot;/static/891a8f706331d47474c3f2fd9906d926/68efc/article-image-2.jpg 1360w&quot;],
-    &quot;sizes&quot;: &quot;(max-width: 1360px) 100vw, 1360px&quot;,
+    &quot;srcSet&quot;: [&quot;/static/d12174d1b827913eb8d32723a799b453/56dca/typing.jpg 1600w&quot;],
+    &quot;sizes&quot;: &quot;(max-width: 1600px) 100vw, 1600px&quot;,
     &quot;type&quot;: &quot;image/jpeg&quot;
   })), &quot;\n        &quot;, mdx(&quot;img&quot;, _extends({
     parentName: &quot;picture&quot;
   }, {
     &quot;className&quot;: &quot;gatsby-resp-image-image&quot;,
-    &quot;src&quot;: &quot;/static/891a8f706331d47474c3f2fd9906d926/68efc/article-image-2.jpg&quot;,
-    &quot;alt&quot;: &quot;Alt text&quot;,
-    &quot;title&quot;: &quot;Logo Title Text 1&quot;,
+    &quot;src&quot;: &quot;/static/d12174d1b827913eb8d32723a799b453/56dca/typing.jpg&quot;,
+    &quot;alt&quot;: &quot;image&quot;,
+    &quot;title&quot;: &quot;image&quot;,
     &quot;loading&quot;: &quot;lazy&quot;,
     &quot;style&quot;: {
       &quot;width&quot;: &quot;100%&quot;,
@@ -191,27 +100,160 @@ return function MDXContent(_ref) {
       &quot;top&quot;: &quot;0&quot;,
       &quot;left&quot;: &quot;0&quot;
     }
-  })), &quot;\n      &quot;), &quot;\n    &quot;)), mdx(&quot;p&quot;, null, &quot;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\u2019s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.&quot;), mdx(&quot;h2&quot;, {
-    &quot;id&quot;: &quot;code-and-syntax-highlighting&quot;
-  }, &quot;Code and Syntax Highlighting&quot;), mdx(&quot;pre&quot;, null, mdx(&quot;code&quot;, _extends({
-    parentName: &quot;pre&quot;
+  })), &quot;\n      &quot;), &quot;\n    &quot;)), mdx(&quot;h2&quot;, {
+    &quot;id&quot;: &quot;my-first-project&quot;
+  }, &quot;My first\xA0project&quot;), mdx(&quot;p&quot;, null, &quot;Let\u2019s be clear, the start was tricky. I had practically no programming knowledge, so I knew achieving my aim would be an uphill battle. But, whilst it might\u2019ve been difficult at the start, I knew it would be a great opportunity to build some useful skills. Plus, if this article inspires you to try out some of these projects, you don\u2019t have to learn a thing if you don\u2019t want to\u200A-\u200Ayou can find links to the projects mentioned here at the bottom of the article!&quot;), mdx(&quot;p&quot;, null, &quot;Here\u2019s what it took weeks of frustration and trial and error to work out:&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;You can run Homebridge on a $30 &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
   }, {
-    &quot;className&quot;: &quot;language-javascript&quot;
-  }), &quot;var s = \&quot;JavaScript syntax highlighting\&quot;;\nalert(s);\n&quot;)), mdx(&quot;pre&quot;, null, mdx(&quot;code&quot;, _extends({
-    parentName: &quot;pre&quot;
-  }, {}), &quot;No language indicated, so no syntax highlighting.\nBut let&apos;s throw in a &lt;b&gt;tag&lt;/b&gt;.\n&quot;)), mdx(&quot;h3&quot;, {
-    &quot;id&quot;: &quot;jsx&quot;
-  }, &quot;JSX&quot;), mdx(&quot;pre&quot;, null, mdx(&quot;code&quot;, _extends({
-    parentName: &quot;pre&quot;
+    &quot;href&quot;: &quot;https://opensource.com/resources/raspberry-pi&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Raspberry Pi&quot;), &quot; (see &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
   }, {
-    &quot;className&quot;: &quot;language-jsx&quot;
-  }), &quot;import React from \&quot;react\&quot;;\nimport { ThemeProvider } from \&quot;theme-ui\&quot;;\nimport theme from \&quot;./theme\&quot;;\n\nexport default props =&gt; (\n  &lt;ThemeProvider theme={theme}&gt;{props.children}&lt;/ThemeProvider&gt;\n);\n&quot;)), mdx(&quot;h2&quot;, {
-    &quot;id&quot;: &quot;blockquotes&quot;
-  }, &quot;Blockquotes&quot;), mdx(&quot;p&quot;, null, &quot;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\u2019s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.&quot;), mdx(&quot;blockquote&quot;, null, mdx(&quot;p&quot;, {
-    parentName: &quot;blockquote&quot;
-  }, &quot;Blockquotes are very handy in email to emulate reply text.\nThis line is part of the same quote.&quot;)), mdx(&quot;p&quot;, null, &quot;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\u2019s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum&quot;), mdx(&quot;h2&quot;, {
-    &quot;id&quot;: &quot;horizontal-rule&quot;
-  }, &quot;Horizontal Rule&quot;), mdx(&quot;p&quot;, null, &quot;Horizontal Rule&quot;), mdx(&quot;p&quot;, null, &quot;Three or more\u2026&quot;), mdx(&quot;hr&quot;, null), mdx(&quot;p&quot;, null, &quot;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\u2019s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum&quot;), mdx(&quot;hr&quot;, null), mdx(&quot;p&quot;, null, &quot;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\u2019s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum&quot;));
+    &quot;href&quot;: &quot;https://medium.com/r/?url=https%3A%2F%2Fgist.github.com%2FTommrodrigues%2Fc2de35f0dec0235c8600cfed29b59c1e&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;here&quot;), &quot; for my guide)&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;You can then use a $2 &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.nodemcu.com/index_en.html&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;NodeMCU&quot;), &quot; (a Wi-Fi compatible &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://opensource.com/resources/what-arduino&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Arduino&quot;), &quot;) to control devices around your home&quot;)), mdx(&quot;p&quot;, null, &quot;My first project was fairly simple: smart outlets.&quot;), mdx(&quot;p&quot;, null, &quot;You can buy 5 cheap RF outlets for about $25, plug one into an outlet, then control anything that plugs into it with the included remote.&quot;), mdx(&quot;p&quot;, null, &quot;But who really wants to have to run around the house with a flimsy remote everyday at sunset, switching on their lights, then remembering to switch them off before they go to bed?&quot;), mdx(&quot;p&quot;, null, &quot;My idea was that I could connect the NodeMCU to an RF transmitter and have it control all the lights for me, instead of having to use the remote.&quot;), mdx(&quot;iframe&quot;, {
+    src: &quot;https://giphy.com/embed/ZVik7pBtu9dNS&quot;,
+    width: &quot;480&quot;,
+    height: &quot;268&quot;,
+    frameBorder: &quot;0&quot;,
+    className: &quot;giphy-embed&quot;,
+    allowFullScreen: true
+  }), mdx(&quot;p&quot;, null, mdx(&quot;a&quot;, {
+    href: &quot;https://giphy.com/gifs/life-interesting-footage-ZVik7pBtu9dNS&quot;
+  })), mdx(&quot;p&quot;, null, &quot;After reading a lot of articles and watching loads of tutorials, I eventually got it to work: I could turn the light on in the HomeKit app and it would turn on in real life!&quot;), mdx(&quot;p&quot;, null, &quot;I set up 5 of the outlets around my home to control various lights. That is, 5 \u2018smart\u2019 outlets for around $28 (the price of the outlets, plus about $3 for the NodeMCU and transmitter). Buying 5 official HomeKit outlets would cost upwards of $200.&quot;), mdx(&quot;p&quot;, null, &quot;My budget Tony Stark dream was becoming a reality: I scheduled lights to come on at certain times and could even ask Siri to control them. I was hooked. Plus, I\u2019d saved more than $170!&quot;), mdx(&quot;h2&quot;, {
+    &quot;id&quot;: &quot;expanding&quot;
+  }, &quot;Expanding&quot;), mdx(&quot;p&quot;, null, &quot;After the success of the first project, I was keen to automate even more of my home. I dived in head-first and became increasingly confident programming NodeMCUs and writing my own Homebridge plugins.&quot;), mdx(&quot;iframe&quot;, {
+    src: &quot;https://giphy.com/embed/MF1kR4YmC2Z20&quot;,
+    width: &quot;480&quot;,
+    height: &quot;367&quot;,
+    frameBorder: &quot;0&quot;,
+    className: &quot;giphy-embed&quot;,
+    allowFullScreen: true
+  }), mdx(&quot;p&quot;, null, mdx(&quot;a&quot;, {
+    href: &quot;https://giphy.com/gifs/90s-computer-MF1kR4YmC2Z20&quot;
+  })), mdx(&quot;p&quot;, null, &quot;It was great, not only had I automated my home for a fraction of the cost, I\u2019d also learnt to program in multiple languages and how to build IoT devices.\nCurrently, I have the following DIY devices in my home:&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;5x Smart outlets for $28&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;4x 5m smart LED strips for $36 ($9 each)&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;2x Smart garage/gate openers for $10 ($5 each)&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;1x Smart thermostat for $10&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;1x Smart sprinkler system for $9&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;1x Smart misting system for $6&quot;)), mdx(&quot;p&quot;, null, &quot;This adds up to around $99! Even more interesting, purchasing the commercially available versions of the accessories would\u2019ve cost the following:&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;5x iHome Smart Outlets for $200 ($40 each)&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;4x Philips Hue Lightstrip Plus 5m for $320 ($80 each)&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;2x Insignia Door Controllers for $100 ($50 each)&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;1x Ecobee3 Lite for $190&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;1x Rachio 3 for $230&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;1x Eve Aqua for $100&quot;)), mdx(&quot;p&quot;, null, &quot;All of this amounts to around $1140. Take that in for a second\u2026 &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;I\u2019d saved more than $1000&quot;), &quot;\u200A-\u200AI\u2019d paid less than a 10th of the commercial price, and had virtually the same functionality.&quot;), mdx(&quot;iframe&quot;, {
+    src: &quot;https://giphy.com/embed/JpG2A9P3dPHXaTYrwu&quot;,
+    width: &quot;480&quot;,
+    height: &quot;270&quot;,
+    frameBorder: &quot;0&quot;,
+    className: &quot;giphy-embed&quot;,
+    allowFullScreen: true
+  }), mdx(&quot;p&quot;, null, mdx(&quot;a&quot;, {
+    href: &quot;https://giphy.com/gifs/money-make-it-rain-JpG2A9P3dPHXaTYrwu&quot;
+  })), mdx(&quot;h2&quot;, {
+    &quot;id&quot;: &quot;conclusion&quot;
+  }, &quot;Conclusion&quot;), mdx(&quot;p&quot;, null, &quot;DIY home automation is a no-brainer. Not only will you see the immense savings I did, but you can also skip the time and effort I put in at the start.&quot;), mdx(&quot;p&quot;, null, &quot;Links to all the completed projects mentioned in this article can be found below.&quot;), mdx(&quot;p&quot;, null, &quot;If a guy with no prior programming knowledge can save more than $1000, then you can too.&quot;), mdx(&quot;h2&quot;, {
+    &quot;id&quot;: &quot;project-links&quot;
+  }, &quot;Project links&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://gist.github.com/Tommrodrigues/c2de35f0dec0235c8600cfed29b59c1e&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Raspberry Pi Homebridge&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://github.com/Tommrodrigues/homebridge-nodemcu-rf&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Smart outlets&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://github.com/Tommrodrigues/homebridge-web-rgb/tree/master/examples&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;LED strips&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://github.com/Tommrodrigues/homebridge-http-garage/tree/master/examples&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Garage opener&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://github.com/Tommrodrigues/homebridge-http-lock-mechanism/tree/master/examples&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Gate opener&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://github.com/Tommrodrigues/homebridge-web-boiler&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Thermostat&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://github.com/Tommrodrigues/homebridge-web-sprinklers&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Sprinklers&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://github.com/Tommrodrigues/homebridge-web-valve&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Misting system&quot;))), mdx(&quot;p&quot;, null, &quot;P.S. Buy your parts from AliExpress, it\u2019s way cheaper than Amazon!&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item></channel></rss>
