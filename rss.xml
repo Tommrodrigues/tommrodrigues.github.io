@@ -1,4 +1,386 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tom Rodrigues's Blog]]></title><description><![CDATA[A blog for Tom Rodrigues]]></description><link>https://tommrodrigues.com</link><image><url>https://tommrodrigues.com/icons/icon-512x512.png</url><title>Tom Rodrigues&apos;s Blog</title><link>https://tommrodrigues.com</link></image><generator>GatsbyJS</generator><lastBuildDate>Fri, 17 Apr 2020 12:12:36 GMT</lastBuildDate><atom:link href="https://tommrodrigues.com/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[My $99 Apple Smart Home]]></title><description><![CDATA[With the growing community interest in Gatsby, we hope to create more resources that make it easier for anyone to grasp the power of this incredible tool.]]></description><link>https://tommrodrigues.com/My-dollar99-Apple-Smart-Home</link><guid isPermaLink="false">https://tommrodrigues.com/My-dollar99-Apple-Smart-Home</guid><dc:creator><![CDATA[Tom Rodrigues]]></dc:creator><pubDate>Thu, 16 Apr 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tom Rodrigues's Blog]]></title><description><![CDATA[A blog for Tom Rodrigues]]></description><link>https://tommrodrigues.com</link><image><url>https://tommrodrigues.com/icons/icon-512x512.png</url><title>Tom Rodrigues&apos;s Blog</title><link>https://tommrodrigues.com</link></image><generator>GatsbyJS</generator><lastBuildDate>Fri, 17 Apr 2020 14:46:14 GMT</lastBuildDate><atom:link href="https://tommrodrigues.com/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[My DIY Smart Thermostat]]></title><description><![CDATA[Controlling your home's temperature has never been easier with smart thermostats, but what if you could make one yourself and save money?]]></description><link>https://tommrodrigues.com/My-DIY-Smart-Thermostat</link><guid isPermaLink="false">https://tommrodrigues.com/My-DIY-Smart-Thermostat</guid><dc:creator><![CDATA[Tom Rodrigues]]></dc:creator><pubDate>Fri, 17 Apr 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;title&quot;: &quot;My DIY Smart Thermostat&quot;,
+  &quot;author&quot;: &quot;Tom Rodrigues&quot;,
+  &quot;date&quot;: &quot;2020-04-17T00:00:00.000Z&quot;,
+  &quot;hero&quot;: &quot;./images/hero.jpg&quot;,
+  &quot;excerpt&quot;: &quot;Controlling your home&apos;s temperature has never been easier with smart thermostats, but what if you could make one yourself and save money?&quot;
+};
+
+var makeShortcode = function makeShortcode(name) {
+  return function MDXDefaultShortcode(props) {
+    console.warn(&quot;Component &quot; + name + &quot; was not imported, exported, or provided by MDXProvider as global scope&quot;);
+    return mdx(&quot;div&quot;, props);
+  };
+};
+
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;p&quot;, null, &quot;It\u2019s never been easier to turn make your home\u2019s heating smart \u2014 there\u2019s a seemingly endless number of smart thermostats available like those from &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://store.google.com/us/magazine/compare_thermostats?hl=en-US&amp;GoogleNest&amp;utm_source=nest_redirect&amp;utm_medium=google_oo&amp;utm_campaign=GS103056&amp;utm_term=thermostats&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Nest&quot;), &quot; and &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.honeywellhome.com/en/products/thermostat&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Honeywell&quot;), &quot;.&quot;), mdx(&quot;p&quot;, null, &quot;Of course, as I outlined in my post about &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;http://tommrodrigues.github.io/My-dollar99-Apple-Smart-Home&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;My $99 Apple Smart Home&quot;), &quot;, not all of us are willing to foot the $100+ price tag that comes with many of these smart thermostats.&quot;), mdx(&quot;p&quot;, null, &quot;This is what led me on my quest to design and build my very own smart thermostat for less than $10, using a &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.nodemcu.com/index_en.html&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;NodeMCU&quot;), &quot;, some circuitry, and &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://github.com/homebridge/homebridge&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Homebridge&quot;), &quot;.&quot;), mdx(&quot;p&quot;, null, &quot;This post outlines how I achieved my goal \u2014 for more of a technical how-to, see &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://github.com/Tommrodrigues/homebridge-web-boiler/tree/master/examples&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;here&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, {
+    &quot;id&quot;: &quot;opentherm&quot;
+  }, &quot;OpenTherm&quot;), mdx(&quot;p&quot;, null, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://en.wikipedia.org/wiki/OpenTherm&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;OpenTherm&quot;), &quot; is a protocol used by many modern central heating systems to allow communication between a boiler and a thermostat.&quot;), mdx(&quot;p&quot;, null, &quot;The protocol is widely used across Europe and elsewhere in the world \u2014 chances are that if you have a relatively new boiler (within the last decade or so), you\u2019ll have support for OpenTherm.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;span&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-wrapper&quot;,
+    &quot;style&quot;: {
+      &quot;position&quot;: &quot;relative&quot;,
+      &quot;display&quot;: &quot;block&quot;,
+      &quot;marginLeft&quot;: &quot;auto&quot;,
+      &quot;marginRight&quot;: &quot;auto&quot;,
+      &quot;maxWidth&quot;: &quot;2550px&quot;
+    }
+  }), &quot;\n      &quot;, mdx(&quot;span&quot;, _extends({
+    parentName: &quot;span&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-background-image&quot;,
+    &quot;style&quot;: {
+      &quot;paddingBottom&quot;: &quot;66.68%&quot;,
+      &quot;position&quot;: &quot;relative&quot;,
+      &quot;bottom&quot;: &quot;0&quot;,
+      &quot;left&quot;: &quot;0&quot;,
+      &quot;backgroundImage&quot;: &quot;url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQD/2gAMAwEAAhADEAAAAcugaWL/xAAYEAADAQEAAAAAAAAAAAAAAAAAARESE//aAAgBAQABBQLVdG6ZMnKn/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8BR//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/AVf/xAAYEAADAQEAAAAAAAAAAAAAAAAAARAxIf/aAAgBAQAGPwJzrmmn/8QAHBABAAMAAgMAAAAAAAAAAAAAAQARITFRobHx/9oACAEBAAE/IbK7bgxsYaHStmXnxLfEwH1n/9oADAMBAAIAAwAAABCQL//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/EIt//8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oACAECAQE/ELiH/8QAGxABAAIDAQEAAAAAAAAAAAAAAQARMXHwIVH/2gAIAQEAAT8QXPxZV9YWQJhI0G+S2WUDzcGcObhcRadzP//Z&apos;)&quot;,
+      &quot;backgroundSize&quot;: &quot;cover&quot;,
+      &quot;display&quot;: &quot;block&quot;
+    }
+  })), &quot;\n  &quot;, mdx(&quot;picture&quot;, {
+    parentName: &quot;span&quot;
+  }, &quot;\n        &quot;, mdx(&quot;source&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;srcSet&quot;: [&quot;/static/456c021f438104641c18bbf41d97cf5c/a3bc4/radiator.webp 2500w&quot;, &quot;/static/456c021f438104641c18bbf41d97cf5c/c879a/radiator.webp 2550w&quot;],
+    &quot;sizes&quot;: &quot;(max-width: 2550px) 100vw, 2550px&quot;,
+    &quot;type&quot;: &quot;image/webp&quot;
+  })), &quot;\n        &quot;, mdx(&quot;source&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;srcSet&quot;: [&quot;/static/456c021f438104641c18bbf41d97cf5c/44ecf/radiator.jpg 2500w&quot;, &quot;/static/456c021f438104641c18bbf41d97cf5c/ad5e4/radiator.jpg 2550w&quot;],
+    &quot;sizes&quot;: &quot;(max-width: 2550px) 100vw, 2550px&quot;,
+    &quot;type&quot;: &quot;image/jpeg&quot;
+  })), &quot;\n        &quot;, mdx(&quot;img&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-image&quot;,
+    &quot;src&quot;: &quot;/static/456c021f438104641c18bbf41d97cf5c/ad5e4/radiator.jpg&quot;,
+    &quot;alt&quot;: &quot;image&quot;,
+    &quot;title&quot;: &quot;image&quot;,
+    &quot;loading&quot;: &quot;lazy&quot;,
+    &quot;style&quot;: {
+      &quot;width&quot;: &quot;100%&quot;,
+      &quot;height&quot;: &quot;100%&quot;,
+      &quot;margin&quot;: &quot;0&quot;,
+      &quot;verticalAlign&quot;: &quot;middle&quot;,
+      &quot;position&quot;: &quot;absolute&quot;,
+      &quot;top&quot;: &quot;0&quot;,
+      &quot;left&quot;: &quot;0&quot;
+    }
+  })), &quot;\n      &quot;), &quot;\n    &quot;)), mdx(&quot;p&quot;, null, &quot;The first question is: how do you get a NodeMCU to talk to a boiler using the OpenTherm protocol?&quot;), mdx(&quot;p&quot;, null, &quot;Well, thankfully, most of the work has already been done for us. &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;http://ihormelnyk.com/arduino_opentherm_controller&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;This&quot;), &quot; excellent blog outlines how to make an OpenTherm adapter to act as the interface between our NodeMCU, and our OpenTherm-compatible appliance. The circuit diagram is as follows:&quot;), mdx(&quot;p&quot;, null, mdx(&quot;span&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-wrapper&quot;,
+    &quot;style&quot;: {
+      &quot;position&quot;: &quot;relative&quot;,
+      &quot;display&quot;: &quot;block&quot;,
+      &quot;marginLeft&quot;: &quot;auto&quot;,
+      &quot;marginRight&quot;: &quot;auto&quot;,
+      &quot;maxWidth&quot;: &quot;930px&quot;
+    }
+  }), &quot;\n      &quot;, mdx(&quot;span&quot;, _extends({
+    parentName: &quot;span&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-background-image&quot;,
+    &quot;style&quot;: {
+      &quot;paddingBottom&quot;: &quot;42.043010752688176%&quot;,
+      &quot;position&quot;: &quot;relative&quot;,
+      &quot;bottom&quot;: &quot;0&quot;,
+      &quot;left&quot;: &quot;0&quot;,
+      &quot;backgroundImage&quot;: &quot;url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAACmGAAAphgEi7N+MAAABhklEQVQoz01Sa2+rMAzt//9h+zJp0qp2d5QC4VVKnoQQVp7nNp4qzZJlcOzjc5wc9n1H8HVdsSwL+bZt9B+sH3rE1xh/LZyHnmCv+LLDK9l1HYZhgBscvPcQUiApEggjkJc5pJXobAelFLIsI/+Zf5AXOayzmNcZUshfQGMMOU3fN/oOjW/vb2iaBtNjQu96XNkVggvM84wkSVDrGnd+R2taGG/gB49DKI7iCMfoCK01gbreQRoJNzoqesmv6gqcc4zjiNPpRKr2bccyL3hMD0j5ZJhWKaIywr29I61Tkl9VFS7xBX70JD802d4izmLkeY40TfF5/ESrWiiraM/KPKPtcVi3FUme4OP8gSzPfhk6h67vILSAkopAlVZIixS3240Gfkff4IajrEtS0/kOWmkctNFw3iHEMCHshFUMXHA0bUOs6ltNOZYzYkfyn6BFWeCSXjDNE5Z1wTRNT8Beww4WvOWw1lLR+d+Zbi/sLACGHKsZvuIvMMaoMWMZ5YLU8DJa2RKh/9oMXI/o/WWFAAAAAElFTkSuQmCC&apos;)&quot;,
+      &quot;backgroundSize&quot;: &quot;cover&quot;,
+      &quot;display&quot;: &quot;block&quot;
+    }
+  })), &quot;\n  &quot;, mdx(&quot;picture&quot;, {
+    parentName: &quot;span&quot;
+  }, &quot;\n        &quot;, mdx(&quot;source&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;srcSet&quot;: [&quot;/static/a9bb262bd46cad13247d24fa4db05876/8867c/schematic.webp 930w&quot;],
+    &quot;sizes&quot;: &quot;(max-width: 930px) 100vw, 930px&quot;,
+    &quot;type&quot;: &quot;image/webp&quot;
+  })), &quot;\n        &quot;, mdx(&quot;source&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;srcSet&quot;: [&quot;/static/a9bb262bd46cad13247d24fa4db05876/defcb/schematic.png 930w&quot;],
+    &quot;sizes&quot;: &quot;(max-width: 930px) 100vw, 930px&quot;,
+    &quot;type&quot;: &quot;image/png&quot;
+  })), &quot;\n        &quot;, mdx(&quot;img&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-image&quot;,
+    &quot;src&quot;: &quot;/static/a9bb262bd46cad13247d24fa4db05876/defcb/schematic.png&quot;,
+    &quot;alt&quot;: &quot;image&quot;,
+    &quot;title&quot;: &quot;image&quot;,
+    &quot;loading&quot;: &quot;lazy&quot;,
+    &quot;style&quot;: {
+      &quot;width&quot;: &quot;100%&quot;,
+      &quot;height&quot;: &quot;100%&quot;,
+      &quot;margin&quot;: &quot;0&quot;,
+      &quot;verticalAlign&quot;: &quot;middle&quot;,
+      &quot;position&quot;: &quot;absolute&quot;,
+      &quot;top&quot;: &quot;0&quot;,
+      &quot;left&quot;: &quot;0&quot;
+    }
+  })), &quot;\n      &quot;), &quot;\n    &quot;)), mdx(&quot;p&quot;, null, &quot;Nothing too complicated, just some resistors, diodes, opto-couplers, and transistors.&quot;), mdx(&quot;p&quot;, null, &quot;However, if you\u2019ve never had experience making your own circuits, and the schematic above scares you, you might feel more comfortable buying a pre-made adaptor from the &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;http://ihormelnyk.com/shop/arduino_opentherm_controller&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;blog&quot;), &quot;.&quot;), mdx(&quot;p&quot;, null, &quot;Otherwise, if you\u2019re willing to give it a shot, and would rather not spend $15 dollars on something you can make yourself for less than $10, simply buy the components listed on the blog, then solder them correctly onto some perfboard.&quot;), mdx(&quot;p&quot;, null, &quot;If you want to be super fancy, I\u2019ve designed a PCB &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://github.com/Tommrodrigues/homebridge-web-boiler/tree/master/examples/OpenTherm%20PCB&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;here&quot;), &quot; which you could send off to be made for a couple of dollars, and save yourself a lot of headache when it comes to soldering soldering the components you\u2019ve ordered!&quot;), mdx(&quot;p&quot;, null, &quot;Once you\u2019ve got your OpenTherm adapter, we\u2019re nearly there!&quot;), mdx(&quot;h2&quot;, {
+    &quot;id&quot;: &quot;building-the-thermostat&quot;
+  }, &quot;Building the thermostat&quot;), mdx(&quot;p&quot;, null, &quot;All we need is something to feed in the ambient temperature to the NodeMCU. I chose to use the DHT11 temperature sensor.&quot;), mdx(&quot;p&quot;, null, &quot;Once we\u2019ve wired the sensor and the adaptor up to the NodeMCU and connected everything to the boiler, we just need to focus on the software.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;span&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-wrapper&quot;,
+    &quot;style&quot;: {
+      &quot;position&quot;: &quot;relative&quot;,
+      &quot;display&quot;: &quot;block&quot;,
+      &quot;marginLeft&quot;: &quot;auto&quot;,
+      &quot;marginRight&quot;: &quot;auto&quot;,
+      &quot;maxWidth&quot;: &quot;2549px&quot;
+    }
+  }), &quot;\n      &quot;, mdx(&quot;span&quot;, _extends({
+    parentName: &quot;span&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-background-image&quot;,
+    &quot;style&quot;: {
+      &quot;paddingBottom&quot;: &quot;66.8%&quot;,
+      &quot;position&quot;: &quot;relative&quot;,
+      &quot;bottom&quot;: &quot;0&quot;,
+      &quot;left&quot;: &quot;0&quot;,
+      &quot;backgroundImage&quot;: &quot;url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQT/xAAVAQEBAAAAAAAAAAAAAAAAAAACAf/aAAwDAQACEAMQAAABZYYV0EA3/8QAGhAAAwEAAwAAAAAAAAAAAAAAAAEREgITIf/aAAgBAQABBQLaOxzaLB8vaf/EABYRAAMAAAAAAAAAAAAAAAAAAAABEf/aAAgBAwEBPwGJEP/EABYRAAMAAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPwGtlP/EABkQAAIDAQAAAAAAAAAAAAAAAAAxARARUf/aAAgBAQAGPwIW10QoP//EAB0QAAICAQUAAAAAAAAAAAAAAAABESExQVGBkaH/2gAIAQEAAT8hUrW2RLz26J9UuRSz6K9LGT//2gAMAwEAAgADAAAAEBAP/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEh/9oACAEDAQE/EIdS/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERIf/aAAgBAgEBPxBZUWf/xAAdEAEAAwEAAgMAAAAAAAAAAAABABExIUGBkbHx/9oACAEBAAE/EAkvgUc0iBUOMp9/sC2s8jiOSuujsYq9OaDh8zrp6n//2Q==&apos;)&quot;,
+      &quot;backgroundSize&quot;: &quot;cover&quot;,
+      &quot;display&quot;: &quot;block&quot;
+    }
+  })), &quot;\n  &quot;, mdx(&quot;picture&quot;, {
+    parentName: &quot;span&quot;
+  }, &quot;\n        &quot;, mdx(&quot;source&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;srcSet&quot;: [&quot;/static/d6ccd69e4854447d1509d0255d93832d/a3bc4/making.webp 2500w&quot;, &quot;/static/d6ccd69e4854447d1509d0255d93832d/d0d0e/making.webp 2549w&quot;],
+    &quot;sizes&quot;: &quot;(max-width: 2549px) 100vw, 2549px&quot;,
+    &quot;type&quot;: &quot;image/webp&quot;
+  })), &quot;\n        &quot;, mdx(&quot;source&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;srcSet&quot;: [&quot;/static/d6ccd69e4854447d1509d0255d93832d/44ecf/making.jpg 2500w&quot;, &quot;/static/d6ccd69e4854447d1509d0255d93832d/bc049/making.jpg 2549w&quot;],
+    &quot;sizes&quot;: &quot;(max-width: 2549px) 100vw, 2549px&quot;,
+    &quot;type&quot;: &quot;image/jpeg&quot;
+  })), &quot;\n        &quot;, mdx(&quot;img&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-image&quot;,
+    &quot;src&quot;: &quot;/static/d6ccd69e4854447d1509d0255d93832d/bc049/making.jpg&quot;,
+    &quot;alt&quot;: &quot;image&quot;,
+    &quot;title&quot;: &quot;image&quot;,
+    &quot;loading&quot;: &quot;lazy&quot;,
+    &quot;style&quot;: {
+      &quot;width&quot;: &quot;100%&quot;,
+      &quot;height&quot;: &quot;100%&quot;,
+      &quot;margin&quot;: &quot;0&quot;,
+      &quot;verticalAlign&quot;: &quot;middle&quot;,
+      &quot;position&quot;: &quot;absolute&quot;,
+      &quot;top&quot;: &quot;0&quot;,
+      &quot;left&quot;: &quot;0&quot;
+    }
+  })), &quot;\n      &quot;), &quot;\n    &quot;)), mdx(&quot;p&quot;, null, &quot;The NodeMCU will use a &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://en.wikipedia.org/wiki/PID_controller&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;PID&quot;), &quot;-based system to control the boiler\u2019s temperature based on the ambient temperature.&quot;), mdx(&quot;p&quot;, null, &quot;The PID tracks changes to the ambient temperature, adjusting the boiler\u2019s temperature to try and get the ambient temperature as close to the desired temperature as possible \u2014 i.e. if it\u2019s too warm, cool down the boiler, and vice-versa.&quot;), mdx(&quot;p&quot;, null, &quot;The NodeMCU manages all this for you, and relays the information back to the &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://github.com/Tommrodrigues/homebridge-web-boiler&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;homebridge-web-boiler&quot;), &quot; plugin so you can simply set the desired temperature in &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.apple.com/ios/home/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Apple HomeKit&quot;), &quot; \u2014 the rest will be done for you.&quot;), mdx(&quot;h2&quot;, {
+    &quot;id&quot;: &quot;tuning&quot;
+  }, &quot;Tuning&quot;), mdx(&quot;p&quot;, null, &quot;The PID uses some set values to work out how it should behave. For example, your home might be well insulated, and requires very low heating levels over a longer period. Another home, might instead lose heat more quickly, so the heating should be more sensitive to sudden changes.&quot;), mdx(&quot;p&quot;, null, &quot;The values the PID uses are: Kp, Ki, Kd. You can look up PID controller theory if you want more information on what each of the values are responsible for, but just know that these values will vary from home-to-home.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;span&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-wrapper&quot;,
+    &quot;style&quot;: {
+      &quot;position&quot;: &quot;relative&quot;,
+      &quot;display&quot;: &quot;block&quot;,
+      &quot;marginLeft&quot;: &quot;auto&quot;,
+      &quot;marginRight&quot;: &quot;auto&quot;,
+      &quot;maxWidth&quot;: &quot;2550px&quot;
+    }
+  }), &quot;\n      &quot;, mdx(&quot;span&quot;, _extends({
+    parentName: &quot;span&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-background-image&quot;,
+    &quot;style&quot;: {
+      &quot;paddingBottom&quot;: &quot;66.68%&quot;,
+      &quot;position&quot;: &quot;relative&quot;,
+      &quot;bottom&quot;: &quot;0&quot;,
+      &quot;left&quot;: &quot;0&quot;,
+      &quot;backgroundImage&quot;: &quot;url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgADBP/EABUBAQEAAAAAAAAAAAAAAAAAAAAC/9oADAMBAAIQAxAAAAEPIVHTCP/EABoQAAICAwAAAAAAAAAAAAAAAAABAhEhIjH/2gAIAQEAAQUCvK5aQ9RTLP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABUQAQEAAAAAAAAAAAAAAAAAACBR/9oACAEBAAY/Aov/xAAbEAADAQADAQAAAAAAAAAAAAAAAREhMUFRcf/aAAgBAQABPyFdjg3osmj8l9g15BMl6f/aAAwDAQACAAMAAAAQcM//xAAWEQADAAAAAAAAAAAAAAAAAAABEBH/2gAIAQMBAT8QhX//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPxBH/8QAGRABAAMBAQAAAAAAAAAAAAAAAQARITFR/9oACAEBAAE/ECQEw8LLvkQSdrcihT1yIKSk4c2N5A5kJ7ou2f/Z&apos;)&quot;,
+      &quot;backgroundSize&quot;: &quot;cover&quot;,
+      &quot;display&quot;: &quot;block&quot;
+    }
+  })), &quot;\n  &quot;, mdx(&quot;picture&quot;, {
+    parentName: &quot;span&quot;
+  }, &quot;\n        &quot;, mdx(&quot;source&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;srcSet&quot;: [&quot;/static/da430c2c8ba92ee7ffbaa3fe4523868e/a3bc4/tuning.webp 2500w&quot;, &quot;/static/da430c2c8ba92ee7ffbaa3fe4523868e/c879a/tuning.webp 2550w&quot;],
+    &quot;sizes&quot;: &quot;(max-width: 2550px) 100vw, 2550px&quot;,
+    &quot;type&quot;: &quot;image/webp&quot;
+  })), &quot;\n        &quot;, mdx(&quot;source&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;srcSet&quot;: [&quot;/static/da430c2c8ba92ee7ffbaa3fe4523868e/44ecf/tuning.jpg 2500w&quot;, &quot;/static/da430c2c8ba92ee7ffbaa3fe4523868e/ad5e4/tuning.jpg 2550w&quot;],
+    &quot;sizes&quot;: &quot;(max-width: 2550px) 100vw, 2550px&quot;,
+    &quot;type&quot;: &quot;image/jpeg&quot;
+  })), &quot;\n        &quot;, mdx(&quot;img&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-image&quot;,
+    &quot;src&quot;: &quot;/static/da430c2c8ba92ee7ffbaa3fe4523868e/ad5e4/tuning.jpg&quot;,
+    &quot;alt&quot;: &quot;image&quot;,
+    &quot;title&quot;: &quot;image&quot;,
+    &quot;loading&quot;: &quot;lazy&quot;,
+    &quot;style&quot;: {
+      &quot;width&quot;: &quot;100%&quot;,
+      &quot;height&quot;: &quot;100%&quot;,
+      &quot;margin&quot;: &quot;0&quot;,
+      &quot;verticalAlign&quot;: &quot;middle&quot;,
+      &quot;position&quot;: &quot;absolute&quot;,
+      &quot;top&quot;: &quot;0&quot;,
+      &quot;left&quot;: &quot;0&quot;
+    }
+  })), &quot;\n      &quot;), &quot;\n    &quot;)), mdx(&quot;p&quot;, null, &quot;A PID auto-tuner to the NodeMCU makes finding the right values for your home easy.&quot;), mdx(&quot;p&quot;, null, &quot;Once you\u2019ve set your thermostat up, you should run the auto-tuner when the ambient temperature and the boiler temperature are stable.&quot;), mdx(&quot;p&quot;, null, &quot;The auto-tuner will oscillate the boiler temperature very high and very low to see how your home reacts, with respect to the ambient temperature. Note that this may take a couple of hours, and your home may become uncomfortably warm/cool whilst tuning is taking place&quot;), mdx(&quot;p&quot;, null, &quot;From the tuning, it can back-calculate a figure for each of the PID values. The figures are ballpark ones, and will require finer manual tuning to optimise them. For more information on the auto-tuner, see &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;http://brettbeauregard.com/blog/2012/01/arduino-pid-autotune-library/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;here&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, {
+    &quot;id&quot;: &quot;conclusion&quot;
+  }, &quot;Conclusion&quot;), mdx(&quot;p&quot;, null, &quot;Building your own smart thermostat is a relatively simple, and ultimately very rewarding task.&quot;), mdx(&quot;p&quot;, null, &quot;The DIY smart thermostat was a major addition to my smart home, and my family loves being able to schedule and control heating easily from their phones.&quot;), mdx(&quot;p&quot;, null, &quot;I was able to save more than $100 and learn loads of new skills. The tuned PID also does a far superior job at maintaining a comfortable ambient temperature inside my home than any of our previous thermostats have done.&quot;), mdx(&quot;h2&quot;, {
+    &quot;id&quot;: &quot;links&quot;
+  }, &quot;Links&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://github.com/Tommrodrigues/homebridge-web-boiler/tree/master/examples&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Smart Thermostat&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;http://tommrodrigues.github.io/My-dollar99-Apple-Smart-Home&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;My $99 Apple Smart Home&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;http://ihormelnyk.com/arduino_opentherm_controller&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Opentherm Adapter Post&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://github.com/Tommrodrigues/homebridge-web-boiler/tree/master/examples/OpenTherm%20PCB&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;OpenTherm Adapter PCB&quot;))), mdx(&quot;p&quot;, null, &quot;P.S. Buy your parts from AliExpress, it\u2019s way cheaper than Amazon!&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[My $99 Apple Smart Home]]></title><description><![CDATA[With the growing community interest in Gatsby, we hope to create more resources that make it easier for anyone to grasp the power of this incredible tool.]]></description><link>https://tommrodrigues.com/My-dollar99-Apple-Smart-Home</link><guid isPermaLink="false">https://tommrodrigues.com/My-dollar99-Apple-Smart-Home</guid><dc:creator><![CDATA[Tom Rodrigues]]></dc:creator><pubDate>Thu, 16 Apr 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
 
@@ -106,7 +488,7 @@ return function MDXContent(_ref) {
     }
   })), &quot;\n      &quot;), &quot;\n    &quot;)), mdx(&quot;h2&quot;, {
     &quot;id&quot;: &quot;my-first-project&quot;
-  }, &quot;My first\xA0project&quot;), mdx(&quot;p&quot;, null, &quot;Let\u2019s be clear, the start was tricky. I had practically no programming knowledge, so I knew achieving my aim would be an uphill battle. But, whilst it might\u2019ve been difficult at the start, I knew it would be a great opportunity to build some useful skills. Plus, if this article inspires you to try out some of these projects, you don\u2019t have to learn a thing if you don\u2019t want to\u200A-\u200Ayou can find links to the projects mentioned here at the bottom of the article!&quot;), mdx(&quot;p&quot;, null, &quot;Here\u2019s what it took weeks of frustration and trial and error to work out:&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+  }, &quot;My first\xA0project&quot;), mdx(&quot;p&quot;, null, &quot;Let\u2019s be clear, the start was tricky. I had practically no programming knowledge, so I knew achieving my aim would be an uphill battle. But, whilst it might\u2019ve been difficult at the start, I knew it would be a great opportunity to build some useful skills. Plus, if this article inspires you to try out some of these projects, you don\u2019t have to learn a thing if you don\u2019t want to\u200A\u2014\u200Ayou can find links to the projects mentioned here at the bottom of the article!&quot;), mdx(&quot;p&quot;, null, &quot;Here\u2019s what it took weeks of frustration and trial and error to work out:&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
   }, &quot;You can run Homebridge on a $30 &quot;, mdx(&quot;a&quot;, _extends({
     parentName: &quot;li&quot;
@@ -180,7 +562,7 @@ return function MDXContent(_ref) {
     parentName: &quot;ul&quot;
   }, &quot;1x Eve Aqua for $100&quot;)), mdx(&quot;p&quot;, null, &quot;All of this amounts to around $1140. Take that in for a second\u2026 &quot;, mdx(&quot;strong&quot;, {
     parentName: &quot;p&quot;
-  }, &quot;I\u2019d saved more than $1000&quot;), &quot;\u200A-\u200AI\u2019d paid less than a 10th of the commercial price, and had virtually the same functionality.&quot;), mdx(&quot;iframe&quot;, {
+  }, &quot;I\u2019d saved more than $1000&quot;), &quot;\u200A\u2014\u200AI\u2019d paid less than a 10th of the commercial price, and had virtually the same functionality.&quot;), mdx(&quot;iframe&quot;, {
     src: &quot;https://giphy.com/embed/JpG2A9P3dPHXaTYrwu&quot;,
     width: &quot;480&quot;,
     height: &quot;270&quot;,
@@ -192,8 +574,8 @@ return function MDXContent(_ref) {
   })), mdx(&quot;h2&quot;, {
     &quot;id&quot;: &quot;conclusion&quot;
   }, &quot;Conclusion&quot;), mdx(&quot;p&quot;, null, &quot;DIY home automation is a no-brainer. Not only will you see the immense savings I did, but you can also skip the time and effort I put in at the start.&quot;), mdx(&quot;p&quot;, null, &quot;Links to all the completed projects mentioned in this article can be found below.&quot;), mdx(&quot;p&quot;, null, &quot;If a guy with no prior programming knowledge can save more than $1000, then you can too.&quot;), mdx(&quot;h2&quot;, {
-    &quot;id&quot;: &quot;project-links&quot;
-  }, &quot;Project links&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    &quot;id&quot;: &quot;links&quot;
+  }, &quot;Links&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
   }, mdx(&quot;a&quot;, _extends({
     parentName: &quot;li&quot;
@@ -217,7 +599,7 @@ return function MDXContent(_ref) {
     &quot;href&quot;: &quot;https://github.com/Tommrodrigues/homebridge-web-rgb/tree/master/examples&quot;,
     &quot;target&quot;: &quot;_blank&quot;,
     &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;LED strips&quot;)), mdx(&quot;li&quot;, {
+  }), &quot;Smart LED strips&quot;)), mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
   }, mdx(&quot;a&quot;, _extends({
     parentName: &quot;li&quot;
@@ -225,7 +607,7 @@ return function MDXContent(_ref) {
     &quot;href&quot;: &quot;https://github.com/Tommrodrigues/homebridge-http-garage/tree/master/examples&quot;,
     &quot;target&quot;: &quot;_blank&quot;,
     &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;Garage opener&quot;)), mdx(&quot;li&quot;, {
+  }), &quot;Smart Garage opener&quot;)), mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
   }, mdx(&quot;a&quot;, _extends({
     parentName: &quot;li&quot;
@@ -233,7 +615,7 @@ return function MDXContent(_ref) {
     &quot;href&quot;: &quot;https://github.com/Tommrodrigues/homebridge-http-lock-mechanism/tree/master/examples&quot;,
     &quot;target&quot;: &quot;_blank&quot;,
     &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;Gate opener&quot;)), mdx(&quot;li&quot;, {
+  }), &quot;Smart Gate opener&quot;)), mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
   }, mdx(&quot;a&quot;, _extends({
     parentName: &quot;li&quot;
@@ -241,7 +623,7 @@ return function MDXContent(_ref) {
     &quot;href&quot;: &quot;https://github.com/Tommrodrigues/homebridge-web-boiler&quot;,
     &quot;target&quot;: &quot;_blank&quot;,
     &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;Thermostat&quot;)), mdx(&quot;li&quot;, {
+  }), &quot;Smart Thermostat&quot;)), mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
   }, mdx(&quot;a&quot;, _extends({
     parentName: &quot;li&quot;
@@ -249,7 +631,7 @@ return function MDXContent(_ref) {
     &quot;href&quot;: &quot;https://github.com/Tommrodrigues/homebridge-web-sprinklers&quot;,
     &quot;target&quot;: &quot;_blank&quot;,
     &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;Sprinklers&quot;)), mdx(&quot;li&quot;, {
+  }), &quot;Smart Sprinklers&quot;)), mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
   }, mdx(&quot;a&quot;, _extends({
     parentName: &quot;li&quot;
@@ -257,7 +639,7 @@ return function MDXContent(_ref) {
     &quot;href&quot;: &quot;https://github.com/Tommrodrigues/homebridge-web-valve&quot;,
     &quot;target&quot;: &quot;_blank&quot;,
     &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;Misting system&quot;))), mdx(&quot;p&quot;, null, &quot;P.S. Buy your parts from AliExpress, it\u2019s way cheaper than Amazon!&quot;));
+  }), &quot;Smart Misting system&quot;))), mdx(&quot;p&quot;, null, &quot;P.S. Buy your parts from AliExpress, it\u2019s way cheaper than Amazon!&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item></channel></rss>
