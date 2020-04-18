@@ -1,4 +1,241 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tom Rodrigues]]></title><description><![CDATA[A blog for Tom Rodrigues]]></description><link>https://blog.tommrodrigues.com</link><image><url>https://blog.tommrodrigues.com/icons/icon-512x512.png</url><title>Tom Rodrigues</title><link>https://blog.tommrodrigues.com</link></image><generator>GatsbyJS</generator><lastBuildDate>Sat, 18 Apr 2020 14:18:56 GMT</lastBuildDate><atom:link href="https://blog.tommrodrigues.com/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Wi-Fi Cracking]]></title><description><![CDATA[We use Wi-Fi every day for everything from keeping in touch with friends and family to online banking. But how safe are we when we use Wi-Fi?]]></description><link>https://blog.tommrodrigues.com/Wi-Fi-Cracking</link><guid isPermaLink="false">https://blog.tommrodrigues.com/Wi-Fi-Cracking</guid><dc:creator><![CDATA[Tom Rodrigues]]></dc:creator><pubDate>Sat, 18 Apr 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tom Rodrigues]]></title><description><![CDATA[A blog for Tom Rodrigues]]></description><link>https://blog.tommrodrigues.com</link><image><url>https://blog.tommrodrigues.com/icons/icon-512x512.png</url><title>Tom Rodrigues</title><link>https://blog.tommrodrigues.com</link></image><generator>GatsbyJS</generator><lastBuildDate>Sat, 18 Apr 2020 21:59:52 GMT</lastBuildDate><atom:link href="https://blog.tommrodrigues.com/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[MAC Address Spoofing]]></title><description><![CDATA[Wi-Fi network know who you are by looking at your MAC address. But what if we can manipulate this identity?]]></description><link>https://blog.tommrodrigues.com/MAC-Address-Spoofing</link><guid isPermaLink="false">https://blog.tommrodrigues.com/MAC-Address-Spoofing</guid><dc:creator><![CDATA[Tom Rodrigues]]></dc:creator><pubDate>Sun, 19 Apr 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;title&quot;: &quot;MAC Address Spoofing&quot;,
+  &quot;author&quot;: &quot;Tom Rodrigues&quot;,
+  &quot;date&quot;: &quot;2020-04-19T00:00:00.000Z&quot;,
+  &quot;hero&quot;: &quot;./images/hero.jpg&quot;,
+  &quot;excerpt&quot;: &quot;Wi-Fi network know who you are by looking at your MAC address. But what if we can manipulate this identity?&quot;
+};
+
+var makeShortcode = function makeShortcode(name) {
+  return function MDXDefaultShortcode(props) {
+    console.warn(&quot;Component &quot; + name + &quot; was not imported, exported, or provided by MDXProvider as global scope&quot;);
+    return mdx(&quot;div&quot;, props);
+  };
+};
+
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;p&quot;, null, &quot;When we connect to a network, the access point can use our device\u2019s MAC address to identify, and even track us.&quot;), mdx(&quot;p&quot;, null, &quot;This is what a MAC address looks like:&quot;), mdx(&quot;pre&quot;, null, mdx(&quot;code&quot;, _extends({
+    parentName: &quot;pre&quot;
+  }, {}), &quot;00:1B:44:11:3A:B7\n&quot;)), mdx(&quot;p&quot;, null, &quot;The first 6 digits identify the manufacturer (SanDisk in this case), and the last 6 are unique to that device.&quot;), mdx(&quot;p&quot;, null, &quot;When you go somewhere where you\u2019re asked to pay for internet access, you\u2019ll often be given log-in information to sign in with on a page online.&quot;), mdx(&quot;p&quot;, null, &quot;When you sign in, the network notes down that your device, identified by its MAC address, is allowed access.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;span&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-wrapper&quot;,
+    &quot;style&quot;: {
+      &quot;position&quot;: &quot;relative&quot;,
+      &quot;display&quot;: &quot;block&quot;,
+      &quot;marginLeft&quot;: &quot;auto&quot;,
+      &quot;marginRight&quot;: &quot;auto&quot;,
+      &quot;maxWidth&quot;: &quot;2553px&quot;
+    }
+  }), &quot;\n      &quot;, mdx(&quot;span&quot;, _extends({
+    parentName: &quot;span&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-background-image&quot;,
+    &quot;style&quot;: {
+      &quot;paddingBottom&quot;: &quot;66.44%&quot;,
+      &quot;position&quot;: &quot;relative&quot;,
+      &quot;bottom&quot;: &quot;0&quot;,
+      &quot;left&quot;: &quot;0&quot;,
+      &quot;backgroundImage&quot;: &quot;url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAgP/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAF3UPqPkYP/xAAbEAEAAgIDAAAAAAAAAAAAAAABAAIDBBIUIf/aAAgBAQABBQLJsHC2cnYIMbqPj//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABsQAAEEAwAAAAAAAAAAAAAAABEAARAxISJR/9oACAEBAAY/AjeE/FtcANH/xAAbEAEBAQEAAwEAAAAAAAAAAAABEQAhMVFhgf/aAAgBAQABPyE4KeQPbl8pE/cpEIuyZAnydytwScMKG//aAAwDAQACAAMAAAAQA8//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAcEAEBAAMAAwEAAAAAAAAAAAABEQAhMVGBkbH/2gAIAQEAAT8QTkJidvT1gYkULxS/usEHHQtF0Y7Gx8iFuvmCy1WLLe4Y9gzP/9k=&apos;)&quot;,
+      &quot;backgroundSize&quot;: &quot;cover&quot;,
+      &quot;display&quot;: &quot;block&quot;
+    }
+  })), &quot;\n  &quot;, mdx(&quot;picture&quot;, {
+    parentName: &quot;span&quot;
+  }, &quot;\n        &quot;, mdx(&quot;source&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;srcSet&quot;: [&quot;/static/d485a883aaa23e07fade88d2c1ce8644/a3bc4/airport.webp 2500w&quot;, &quot;/static/d485a883aaa23e07fade88d2c1ce8644/5bde9/airport.webp 2553w&quot;],
+    &quot;sizes&quot;: &quot;(max-width: 2553px) 100vw, 2553px&quot;,
+    &quot;type&quot;: &quot;image/webp&quot;
+  })), &quot;\n        &quot;, mdx(&quot;source&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;srcSet&quot;: [&quot;/static/d485a883aaa23e07fade88d2c1ce8644/44ecf/airport.jpg 2500w&quot;, &quot;/static/d485a883aaa23e07fade88d2c1ce8644/e52ac/airport.jpg 2553w&quot;],
+    &quot;sizes&quot;: &quot;(max-width: 2553px) 100vw, 2553px&quot;,
+    &quot;type&quot;: &quot;image/jpeg&quot;
+  })), &quot;\n        &quot;, mdx(&quot;img&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-image&quot;,
+    &quot;src&quot;: &quot;/static/d485a883aaa23e07fade88d2c1ce8644/e52ac/airport.jpg&quot;,
+    &quot;alt&quot;: &quot;image&quot;,
+    &quot;title&quot;: &quot;image&quot;,
+    &quot;loading&quot;: &quot;lazy&quot;,
+    &quot;style&quot;: {
+      &quot;width&quot;: &quot;100%&quot;,
+      &quot;height&quot;: &quot;100%&quot;,
+      &quot;margin&quot;: &quot;0&quot;,
+      &quot;verticalAlign&quot;: &quot;middle&quot;,
+      &quot;position&quot;: &quot;absolute&quot;,
+      &quot;top&quot;: &quot;0&quot;,
+      &quot;left&quot;: &quot;0&quot;
+    }
+  })), &quot;\n      &quot;), &quot;\n    &quot;)), mdx(&quot;p&quot;, null, &quot;Some free-to-use networks, like those at airports, might also use your MAC address to track you.&quot;), mdx(&quot;p&quot;, null, &quot;They can track which sites you visit, and even gather your travel patterns by looking at the times you connect to the network. This information could then be sold to advertisers who can leverage it for monetary gain.&quot;), mdx(&quot;p&quot;, null, &quot;Networks can do this because each MAC address is unique to a specific device \u2014 at least in theory anyway\u2026&quot;), mdx(&quot;h2&quot;, {
+    &quot;id&quot;: &quot;spoofing-your-mac-address&quot;
+  }, &quot;Spoofing your MAC address&quot;), mdx(&quot;p&quot;, null, &quot;In practice, changing your MAC address is very simple, taking just one command on macOS.&quot;), mdx(&quot;p&quot;, null, &quot;There are 4 reasons you might want to change your MAC address:&quot;), mdx(&quot;ol&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Bypass login page&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Bypass restriction&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Random&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Custom&quot;)), mdx(&quot;h3&quot;, {
+    &quot;id&quot;: &quot;bypassing-login&quot;
+  }, &quot;Bypassing login&quot;), mdx(&quot;p&quot;, null, &quot;The first reason is fairly self-explanatory \u2014 you might be stuck at the registration page for a network, unable to get in.&quot;), mdx(&quot;p&quot;, null, &quot;In this case, you scan the network for all MAC addresses, choose one, and clone it. The network is then tricked into thinking that you have access.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;span&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-wrapper&quot;,
+    &quot;style&quot;: {
+      &quot;position&quot;: &quot;relative&quot;,
+      &quot;display&quot;: &quot;block&quot;,
+      &quot;marginLeft&quot;: &quot;auto&quot;,
+      &quot;marginRight&quot;: &quot;auto&quot;,
+      &quot;maxWidth&quot;: &quot;2601px&quot;
+    }
+  }), &quot;\n      &quot;, mdx(&quot;span&quot;, _extends({
+    parentName: &quot;span&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-background-image&quot;,
+    &quot;style&quot;: {
+      &quot;paddingBottom&quot;: &quot;62.480000000000004%&quot;,
+      &quot;position&quot;: &quot;relative&quot;,
+      &quot;bottom&quot;: &quot;0&quot;,
+      &quot;left&quot;: &quot;0&quot;,
+      &quot;backgroundImage&quot;: &quot;url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFA//EABUBAQEAAAAAAAAAAAAAAAAAAAEA/9oADAMBAAIQAxAAAAFpaVqNQTC//8QAGRAAAwEBAQAAAAAAAAAAAAAAAAECAxET/9oACAEBAAEFAnpJj5UNaNrSpJ0Z1n//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAaEAEAAwADAAAAAAAAAAAAAAABABEhEDGR/9oACAEBAAY/Am01jR7MSpjx3P/EABsQAQACAgMAAAAAAAAAAAAAAAEAESFBMWGB/9oACAEBAAE/Ia9V2QJYa4NGMU+gzB1jqWc0+QIwp//aAAwDAQACAAMAAAAQt/8A/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAEDAQE/EI1//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/EKx//8QAGhABAAMBAQEAAAAAAAAAAAAAAQARIVFBkf/aAAgBAQABPxB6XLRqxCJwTpOdCWQFoBD5GL258LEVF3YCgwMLn//Z&apos;)&quot;,
+      &quot;backgroundSize&quot;: &quot;cover&quot;,
+      &quot;display&quot;: &quot;block&quot;
+    }
+  })), &quot;\n  &quot;, mdx(&quot;picture&quot;, {
+    parentName: &quot;span&quot;
+  }, &quot;\n        &quot;, mdx(&quot;source&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;srcSet&quot;: [&quot;/static/71cceb746a5e3795c0d040a474455391/a3bc4/hotel.webp 2500w&quot;, &quot;/static/71cceb746a5e3795c0d040a474455391/e08fa/hotel.webp 2601w&quot;],
+    &quot;sizes&quot;: &quot;(max-width: 2601px) 100vw, 2601px&quot;,
+    &quot;type&quot;: &quot;image/webp&quot;
+  })), &quot;\n        &quot;, mdx(&quot;source&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;srcSet&quot;: [&quot;/static/71cceb746a5e3795c0d040a474455391/44ecf/hotel.jpg 2500w&quot;, &quot;/static/71cceb746a5e3795c0d040a474455391/31e41/hotel.jpg 2601w&quot;],
+    &quot;sizes&quot;: &quot;(max-width: 2601px) 100vw, 2601px&quot;,
+    &quot;type&quot;: &quot;image/jpeg&quot;
+  })), &quot;\n        &quot;, mdx(&quot;img&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-image&quot;,
+    &quot;src&quot;: &quot;/static/71cceb746a5e3795c0d040a474455391/31e41/hotel.jpg&quot;,
+    &quot;alt&quot;: &quot;image&quot;,
+    &quot;title&quot;: &quot;image&quot;,
+    &quot;loading&quot;: &quot;lazy&quot;,
+    &quot;style&quot;: {
+      &quot;width&quot;: &quot;100%&quot;,
+      &quot;height&quot;: &quot;100%&quot;,
+      &quot;margin&quot;: &quot;0&quot;,
+      &quot;verticalAlign&quot;: &quot;middle&quot;,
+      &quot;position&quot;: &quot;absolute&quot;,
+      &quot;top&quot;: &quot;0&quot;,
+      &quot;left&quot;: &quot;0&quot;
+    }
+  })), &quot;\n      &quot;), &quot;\n    &quot;)), mdx(&quot;h3&quot;, {
+    &quot;id&quot;: &quot;bypassing-restriction&quot;
+  }, &quot;Bypassing restriction&quot;), mdx(&quot;p&quot;, null, &quot;Other times, it might be necessary to bypass a network restriction which defines which manufacturer\u2019s devices can join \u2014 e.g. Microsoft devices only.&quot;), mdx(&quot;p&quot;, null, &quot;In this case, we once again scan the network for all MAC addresses and choose one, but instead of cloning it, we change just the last few characters \u2014 making it appear that your device is from the same manufacturer as the MAC addresss we chose.&quot;), mdx(&quot;h3&quot;, {
+    &quot;id&quot;: &quot;preventing-tracking&quot;
+  }, &quot;Preventing tracking&quot;), mdx(&quot;p&quot;, null, &quot;As mentioned above, it may sometimes be desirable to change your MAC address in order to avoid tracking whilst using a network&quot;), mdx(&quot;p&quot;, null, &quot;In this case, it doesn\u2019t really matter what we change our MAC address to, just that it is unique each time we use the network.&quot;), mdx(&quot;p&quot;, null, &quot;As a result the easiest option is to generate a random MAC address. However, you may wish to choose a custom MAC address instead.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;span&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-wrapper&quot;,
+    &quot;style&quot;: {
+      &quot;position&quot;: &quot;relative&quot;,
+      &quot;display&quot;: &quot;block&quot;,
+      &quot;marginLeft&quot;: &quot;auto&quot;,
+      &quot;marginRight&quot;: &quot;auto&quot;,
+      &quot;maxWidth&quot;: &quot;2550px&quot;
+    }
+  }), &quot;\n      &quot;, mdx(&quot;span&quot;, _extends({
+    parentName: &quot;span&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-background-image&quot;,
+    &quot;style&quot;: {
+      &quot;paddingBottom&quot;: &quot;66.68%&quot;,
+      &quot;position&quot;: &quot;relative&quot;,
+      &quot;bottom&quot;: &quot;0&quot;,
+      &quot;left&quot;: &quot;0&quot;,
+      &quot;backgroundImage&quot;: &quot;url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMFBv/EABUBAQEAAAAAAAAAAAAAAAAAAAAC/9oADAMBAAIQAxAAAAGa+aJ1woV//8QAHhAAAAQHAAAAAAAAAAAAAAAAAQIDBAAFEhMUMTT/2gAIAQEAAQUCuGActxSzOZVEdxL+b//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABwQAAICAgMAAAAAAAAAAAAAAAERABICEEGBof/aAAgBAQAGPwKwK4jv5LZll77n/8QAGhAAAwEAAwAAAAAAAAAAAAAAAAERMRBRcf/aAAgBAQABPyGvYwpRdCswakBWDV3xn7P/2gAMAwEAAgADAAAAECTP/8QAFxEAAwEAAAAAAAAAAAAAAAAAARARQf/aAAgBAwEBPxCHF//EABYRAAMAAAAAAAAAAAAAAAAAAAEQEf/aAAgBAgEBPxARf//EABsQAQEAAwEBAQAAAAAAAAAAAAERACExcVHB/9oACAEBAAE/ENdDQCC1MbIop3NeYJJUQNHmaSCvDhl1fzOj6uf/2Q==&apos;)&quot;,
+      &quot;backgroundSize&quot;: &quot;cover&quot;,
+      &quot;display&quot;: &quot;block&quot;
+    }
+  })), &quot;\n  &quot;, mdx(&quot;picture&quot;, {
+    parentName: &quot;span&quot;
+  }, &quot;\n        &quot;, mdx(&quot;source&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;srcSet&quot;: [&quot;/static/206e7c3ca06408300db59e32357ca8e0/a3bc4/tracking.webp 2500w&quot;, &quot;/static/206e7c3ca06408300db59e32357ca8e0/c879a/tracking.webp 2550w&quot;],
+    &quot;sizes&quot;: &quot;(max-width: 2550px) 100vw, 2550px&quot;,
+    &quot;type&quot;: &quot;image/webp&quot;
+  })), &quot;\n        &quot;, mdx(&quot;source&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;srcSet&quot;: [&quot;/static/206e7c3ca06408300db59e32357ca8e0/44ecf/tracking.jpg 2500w&quot;, &quot;/static/206e7c3ca06408300db59e32357ca8e0/ad5e4/tracking.jpg 2550w&quot;],
+    &quot;sizes&quot;: &quot;(max-width: 2550px) 100vw, 2550px&quot;,
+    &quot;type&quot;: &quot;image/jpeg&quot;
+  })), &quot;\n        &quot;, mdx(&quot;img&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-image&quot;,
+    &quot;src&quot;: &quot;/static/206e7c3ca06408300db59e32357ca8e0/ad5e4/tracking.jpg&quot;,
+    &quot;alt&quot;: &quot;image&quot;,
+    &quot;title&quot;: &quot;image&quot;,
+    &quot;loading&quot;: &quot;lazy&quot;,
+    &quot;style&quot;: {
+      &quot;width&quot;: &quot;100%&quot;,
+      &quot;height&quot;: &quot;100%&quot;,
+      &quot;margin&quot;: &quot;0&quot;,
+      &quot;verticalAlign&quot;: &quot;middle&quot;,
+      &quot;position&quot;: &quot;absolute&quot;,
+      &quot;top&quot;: &quot;0&quot;,
+      &quot;left&quot;: &quot;0&quot;
+    }
+  })), &quot;\n      &quot;), &quot;\n    &quot;)), mdx(&quot;h2&quot;, {
+    &quot;id&quot;: &quot;conclusion&quot;
+  }, &quot;Conclusion&quot;), mdx(&quot;p&quot;, null, &quot;MAC addresses are something that can be easily manipulated for a variety of purposes, allowing you to bypass certain restrictions.&quot;), mdx(&quot;p&quot;, null, &quot;Indeed, whilst you should always use a VPN when using a public network, randomising your MAC address can act as an extra precaution when it comes to preventing tracking.&quot;), mdx(&quot;p&quot;, null, &quot;If you\u2019re interested in trying out MAC address spoofing for yourself, I have written a python script, available &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://github.com/Tommrodrigues/MacSwapPy&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;here&quot;), &quot;, which automates the processes outlined above.&quot;), mdx(&quot;h2&quot;, {
+    &quot;id&quot;: &quot;links&quot;
+  }, &quot;Links&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://github.com/Tommrodrigues/MacSwapPy&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Automated Python Script&quot;))));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Wi-Fi Cracking]]></title><description><![CDATA[We use Wi-Fi every day for everything from keeping in touch with friends and family to online banking. But how safe are we when we use Wi-Fi?]]></description><link>https://blog.tommrodrigues.com/Wi-Fi-Cracking</link><guid isPermaLink="false">https://blog.tommrodrigues.com/Wi-Fi-Cracking</guid><dc:creator><![CDATA[Tom Rodrigues]]></dc:creator><pubDate>Sat, 18 Apr 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
 
@@ -288,19 +525,23 @@ return function MDXContent(_ref) {
       &quot;top&quot;: &quot;0&quot;,
       &quot;left&quot;: &quot;0&quot;
     }
-  })), &quot;\n      &quot;), &quot;\n    &quot;)), mdx(&quot;p&quot;, null, &quot;Hashcat can work in a variety of ways, but the goal is to guess lots of possible passwords, hash them, and see if the result matches the hash target. If the hashed guess matches the target, we\u2019ve cracked the password.&quot;), mdx(&quot;p&quot;, null, &quot;The most common attack methods are dictionary attacks and brute-force attacks.&quot;), mdx(&quot;p&quot;, null, &quot;Dictionary attacks are fairly simple, and are the fastest way to crack basic passwords. You supply a long list of common passwords (like &quot;, mdx(&quot;a&quot;, _extends({
+  })), &quot;\n      &quot;), &quot;\n    &quot;)), mdx(&quot;p&quot;, null, &quot;Hashcat can work in a variety of ways, but the goal is to guess lots of possible passwords, hash them, and see if the result matches the hash target. If the hashed guess matches the target, we\u2019ve cracked the password.&quot;), mdx(&quot;p&quot;, null, &quot;The most common attack methods are dictionary attacks and brute-force attacks.&quot;), mdx(&quot;h3&quot;, {
+    &quot;id&quot;: &quot;dictionary-attacks&quot;
+  }, &quot;Dictionary attacks&quot;), mdx(&quot;p&quot;, null, &quot;Dictionary attacks are fairly simple, and are the fastest way to crack basic passwords. You supply a long list of common passwords (like &quot;, mdx(&quot;a&quot;, _extends({
     parentName: &quot;p&quot;
   }, {
     &quot;href&quot;: &quot;https://github.com/berzerk0/Probable-Wordlists/tree/master/Real-Passwords/WPA-Length&quot;,
     &quot;target&quot;: &quot;_blank&quot;,
     &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;this&quot;), &quot; one), then each password is hashed and tested against the hash target. This works great if the password is something like &quot;, mdx(&quot;inlineCode&quot;, {
+  }), &quot;this&quot;), &quot; one).&quot;), mdx(&quot;p&quot;, null, &quot;Each password is hashed and tested against the hash target.&quot;), mdx(&quot;p&quot;, null, &quot;This works great if the password is something like &quot;, mdx(&quot;inlineCode&quot;, {
     parentName: &quot;p&quot;
   }, &quot;newyork1&quot;), &quot;, but not so good if it\u2019s something like &quot;, mdx(&quot;inlineCode&quot;, {
     parentName: &quot;p&quot;
-  }, &quot;LN3#ydA?GN3ZCs_3&quot;), &quot;.&quot;), mdx(&quot;p&quot;, null, &quot;In the latter case, it would be better to use a brute force attack. The idea for this sort of attack is that you define a length and a possible character set, then every combination of that character set is tried up to the defined length.&quot;), mdx(&quot;p&quot;, null, &quot;For example, if you define a length of 3, and a character set made of lowercase letters, it would output guesses like this:&quot;), mdx(&quot;pre&quot;, null, mdx(&quot;code&quot;, _extends({
+  }, &quot;LN3#ydA?GN3ZCs_3&quot;), &quot;.&quot;), mdx(&quot;h3&quot;, {
+    &quot;id&quot;: &quot;brute-force-attacks&quot;
+  }, &quot;Brute-force attacks&quot;), mdx(&quot;p&quot;, null, &quot;In the case the password is more complicated, it would be better to use a brute force attack.&quot;), mdx(&quot;p&quot;, null, &quot;Here, you define a length and a possible character set, then every combination of that character set is tried up to the defined length.&quot;), mdx(&quot;p&quot;, null, &quot;For example, if you define a length of 3, and a character set made of lowercase letters, it would output guesses like this:&quot;), mdx(&quot;pre&quot;, null, mdx(&quot;code&quot;, _extends({
     parentName: &quot;pre&quot;
-  }, {}), &quot;aaa\nbaa\ncaa\n...\nzzx\nzzy\nzzz\n&quot;)), mdx(&quot;p&quot;, null, &quot;This isn\u2019t too bad for smaller passwords, especially when you\u2019re just using lower or uppercase letters, but becomes unreasonable very quickly.&quot;), mdx(&quot;p&quot;, null, &quot;The minimum length for a WPA password is 8 characters. If these are all lowercase, brute forcing is fairly reasonable. But if you increase the length and start adding in numbers, uppercase letters, and special characters, brute forcing takes way too long \u2014 think lifetime of the universe.&quot;), mdx(&quot;h2&quot;, {
+  }, {}), &quot;aaa\nbaa\ncaa\n...\nzzx\nzzy\nzzz\n&quot;)), mdx(&quot;p&quot;, null, &quot;This isn\u2019t too bad for smaller passwords, especially when you\u2019re just using lower or uppercase letters, but becomes unreasonable very quickly.&quot;), mdx(&quot;p&quot;, null, &quot;The minimum length for a WPA password is 8 characters. If these are all lowercase, brute forcing is fairly reasonable.&quot;), mdx(&quot;p&quot;, null, &quot;But, if you increase the password length and start adding in numbers, uppercase letters, and special characters, brute forcing takes way too long \u2014 think lifetime of the universe.&quot;), mdx(&quot;h2&quot;, {
     &quot;id&quot;: &quot;conclusion&quot;
   }, &quot;Conclusion&quot;), mdx(&quot;p&quot;, null, &quot;Wi-Fi cracking is really very simple if passwords are inadequate, and should be taken very seriously.&quot;), mdx(&quot;p&quot;, null, &quot;If you\u2019d like to learn more or try it out for yourself, see &quot;, mdx(&quot;a&quot;, _extends({
     parentName: &quot;p&quot;
@@ -340,7 +581,7 @@ return function MDXContent(_ref) {
     &quot;href&quot;: &quot;https://louisabraham.github.io/articles/WPA-wifi-cracking-MBP.html&quot;,
     &quot;target&quot;: &quot;_blank&quot;,
     &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;Cracking blog&quot;))));
+  }), &quot;WPA cracking blog post&quot;))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[My DIY Smart Thermostat]]></title><description><![CDATA[Controlling your home's temperature has never been easier with smart thermostats, but what if you could make one yourself and save money?]]></description><link>https://blog.tommrodrigues.com/My-DIY-Smart-Thermostat</link><guid isPermaLink="false">https://blog.tommrodrigues.com/My-DIY-Smart-Thermostat</guid><dc:creator><![CDATA[Tom Rodrigues]]></dc:creator><pubDate>Fri, 17 Apr 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
