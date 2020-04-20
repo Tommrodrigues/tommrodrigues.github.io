@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tom Rodrigues]]></title><description><![CDATA[A blog for Tom Rodrigues]]></description><link>https://blog.tommrodrigues.com</link><image><url>https://blog.tommrodrigues.com/icons/icon-512x512.png</url><title>Tom Rodrigues</title><link>https://blog.tommrodrigues.com</link></image><generator>GatsbyJS</generator><lastBuildDate>Sun, 19 Apr 2020 14:57:18 GMT</lastBuildDate><atom:link href="https://blog.tommrodrigues.com/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[MAC Address Spoofing]]></title><description><![CDATA[Wi-Fi networks know who you are by looking at your MAC address. What happens when we manipulate this?]]></description><link>https://blog.tommrodrigues.com/MAC-Address-Spoofing</link><guid isPermaLink="false">https://blog.tommrodrigues.com/MAC-Address-Spoofing</guid><dc:creator><![CDATA[Tom Rodrigues]]></dc:creator><pubDate>Sun, 19 Apr 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tom Rodrigues]]></title><description><![CDATA[A blog for Tom Rodrigues]]></description><link>https://blog.tommrodrigues.com</link><image><url>https://blog.tommrodrigues.com/icons/icon-512x512.png</url><title>Tom Rodrigues</title><link>https://blog.tommrodrigues.com</link></image><generator>GatsbyJS</generator><lastBuildDate>Mon, 20 Apr 2020 12:06:23 GMT</lastBuildDate><atom:link href="https://blog.tommrodrigues.com/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[MAC Address Spoofing]]></title><description><![CDATA[Wi-Fi networks know who you are by looking at your MAC address. What happens when we manipulate this?]]></description><link>https://blog.tommrodrigues.com/MAC-Address-Spoofing</link><guid isPermaLink="false">https://blog.tommrodrigues.com/MAC-Address-Spoofing</guid><dc:creator><![CDATA[Tom Rodrigues]]></dc:creator><pubDate>Sun, 19 Apr 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
 
@@ -33,7 +33,7 @@ return function MDXContent(_ref) {
     mdxType: &quot;MDXLayout&quot;
   }), mdx(&quot;p&quot;, null, &quot;When we connect to a network, the access point can use our device\u2019s MAC address to identify, and even track us.&quot;), mdx(&quot;p&quot;, null, &quot;This is what a MAC address looks like:&quot;), mdx(&quot;pre&quot;, null, mdx(&quot;code&quot;, _extends({
     parentName: &quot;pre&quot;
-  }, {}), &quot;00:1B:44:11:3A:B7\n&quot;)), mdx(&quot;p&quot;, null, &quot;The first 6 digits identify the manufacturer (SanDisk in this case), and the last 6 are unique to that device.&quot;), mdx(&quot;p&quot;, null, &quot;When you go somewhere where you\u2019re asked to pay for internet access, you\u2019ll often be given log-in information to sign in with on a page online.&quot;), mdx(&quot;p&quot;, null, &quot;When you sign in, the network notes down that your device, identified by its MAC address, is allowed access.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;span&quot;, _extends({
+  }, {}), &quot;00:1B:44:11:3A:B7\n&quot;)), mdx(&quot;p&quot;, null, &quot;The first 6 digits identify the manufacturer (SanDisk in this case), and the last 6 are unique to that device.&quot;), mdx(&quot;p&quot;, null, &quot;When you go somewhere where you\u2019re asked to pay for internet access, you\u2019ll often be given log-in information to use on some log-in page.&quot;), mdx(&quot;p&quot;, null, &quot;When you sign in, the network notes down that your device, identified by its MAC address, is allowed access.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;span&quot;, _extends({
     parentName: &quot;p&quot;
   }, {
     &quot;className&quot;: &quot;gatsby-resp-image-wrapper&quot;,
@@ -157,9 +157,9 @@ return function MDXContent(_ref) {
     }
   })), &quot;\n      &quot;), &quot;\n    &quot;)), mdx(&quot;h3&quot;, {
     &quot;id&quot;: &quot;bypassing-restriction&quot;
-  }, &quot;Bypassing restriction&quot;), mdx(&quot;p&quot;, null, &quot;Other times, it might be necessary to bypass a network restriction which defines which manufacturer\u2019s devices can join \u2014 e.g. Microsoft devices only.&quot;), mdx(&quot;p&quot;, null, &quot;In this case, we once again scan the network for all MAC addresses and choose one, but instead of cloning it, we change just the last few characters \u2014 making it appear that your device is from the same manufacturer as the MAC addresss we chose.&quot;), mdx(&quot;h3&quot;, {
+  }, &quot;Bypassing restriction&quot;), mdx(&quot;p&quot;, null, &quot;Other times, it might be necessary to bypass a network restriction which defines which manufacturer\u2019s devices can join (e.g. Microsoft devices only).&quot;), mdx(&quot;p&quot;, null, &quot;In this case, we once again scan the network for all MAC addresses and choose one, but instead of cloning it, we change just the last few characters \u2014 making it appear that your device is from the same manufacturer as the MAC addresss we chose.&quot;), mdx(&quot;h3&quot;, {
     &quot;id&quot;: &quot;preventing-tracking&quot;
-  }, &quot;Preventing tracking&quot;), mdx(&quot;p&quot;, null, &quot;As mentioned above, it may sometimes be desirable to change your MAC address in order to avoid tracking whilst using a network&quot;), mdx(&quot;p&quot;, null, &quot;In this case, it doesn\u2019t really matter what we change our MAC address to, just that it is unique each time we use the network.&quot;), mdx(&quot;p&quot;, null, &quot;As a result the easiest option is to generate a random MAC address. However, you may wish to choose a custom MAC address instead.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;span&quot;, _extends({
+  }, &quot;Preventing tracking&quot;), mdx(&quot;p&quot;, null, &quot;As mentioned before, it may sometimes be desirable to change your MAC address in order to avoid tracking whilst using a network&quot;), mdx(&quot;p&quot;, null, &quot;In this case, it doesn\u2019t really matter what we change our MAC address to, just that it is unique each time we use the network.&quot;), mdx(&quot;p&quot;, null, &quot;As a result, the easiest option is to generate a random MAC address. However, you may wish to choose a custom MAC address instead.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;span&quot;, _extends({
     parentName: &quot;p&quot;
   }, {
     &quot;className&quot;: &quot;gatsby-resp-image-wrapper&quot;,
@@ -268,7 +268,7 @@ return function MDXContent(_ref) {
   return mdx(MDXLayout, _extends({}, layoutProps, props, {
     components: components,
     mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;p&quot;, null, &quot;Wi-Fi is something we all use use every day, and is essential for connecting our devices to the internet.&quot;), mdx(&quot;p&quot;, null, &quot;However, Wi-Fi has some key vulnerabilities that can make it susceptible to hacking, potentially opening up networks for hackers to snoop around in.&quot;), mdx(&quot;p&quot;, null, &quot;In this post I hope to highlight the importance of cyber security, by how simple Wi-Fi cracking can be.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;span&quot;, _extends({
+  }), mdx(&quot;p&quot;, null, &quot;Wi-Fi is something we all use use every day, and is essential for connecting our devices to the internet.&quot;), mdx(&quot;p&quot;, null, &quot;However, Wi-Fi has some key vulnerabilities that can make it susceptible to hacking, potentially opening up networks for hackers to snoop around in.&quot;), mdx(&quot;p&quot;, null, &quot;In this post I hope to highlight the importance of cyber security, by demonstrating how simple Wi-Fi cracking can be.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;span&quot;, _extends({
     parentName: &quot;p&quot;
   }, {
     &quot;className&quot;: &quot;gatsby-resp-image-wrapper&quot;,
@@ -335,13 +335,13 @@ return function MDXContent(_ref) {
     &quot;href&quot;: &quot;https://en.wikipedia.org/wiki/Wi-Fi_Protected_Access#WPA2&quot;,
     &quot;target&quot;: &quot;_blank&quot;,
     &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;WPA2&quot;), &quot; \u2014 both of which are vulnerable to the methods described in this post.&quot;), mdx(&quot;p&quot;, null, &quot;Older networks, may be secured using &quot;, mdx(&quot;a&quot;, _extends({
+  }), &quot;WPA2&quot;), &quot;, both of which are vulnerable to the methods described in this post.&quot;), mdx(&quot;p&quot;, null, &quot;Older networks, may be secured using &quot;, mdx(&quot;a&quot;, _extends({
     parentName: &quot;p&quot;
   }, {
     &quot;href&quot;: &quot;https://en.wikipedia.org/wiki/Wired_Equivalent_Privacy&quot;,
     &quot;target&quot;: &quot;_blank&quot;,
     &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;WEP&quot;), &quot; \u2014 an older standard which is now completely insecure, breakable without any password cracking necessary, just some simple packet injection.&quot;), mdx(&quot;p&quot;, null, &quot;A growing number of networks are being secured with &quot;, mdx(&quot;a&quot;, _extends({
+  }), &quot;WEP&quot;), &quot; \u2014 an older standard which is now completely obsolete, hackable without any password cracking necessary.&quot;), mdx(&quot;p&quot;, null, &quot;A growing number of networks are being secured with &quot;, mdx(&quot;a&quot;, _extends({
     parentName: &quot;p&quot;
   }, {
     &quot;href&quot;: &quot;https://en.wikipedia.org/wiki/Wi-Fi_Protected_Access#WPA3&quot;,
@@ -365,7 +365,7 @@ return function MDXContent(_ref) {
     &quot;href&quot;: &quot;https://github.com/Tommrodrigues/WiFiCrackPy&quot;,
     &quot;target&quot;: &quot;_blank&quot;,
     &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;here&quot;), &quot;, which automates the entire process outlined below.&quot;), mdx(&quot;h2&quot;, {
+  }), &quot;here&quot;), &quot;, which automates many of the processes outlined below.&quot;), mdx(&quot;h2&quot;, {
     &quot;id&quot;: &quot;wpa-attacks&quot;
   }, &quot;WPA attacks&quot;), mdx(&quot;p&quot;, null, &quot;There are three steps to a WPA attack:&quot;), mdx(&quot;ol&quot;, null, mdx(&quot;li&quot;, {
     parentName: &quot;ol&quot;
@@ -436,7 +436,7 @@ return function MDXContent(_ref) {
       &quot;top&quot;: &quot;0&quot;,
       &quot;left&quot;: &quot;0&quot;
     }
-  })), &quot;\n      &quot;), &quot;\n    &quot;)), mdx(&quot;p&quot;, null, &quot;Handshakes occur only when a device (re)connects to a network. For busier networks this isn\u2019t a problem, so we can just wait until this happens naturally.&quot;), mdx(&quot;p&quot;, null, &quot;Otherwise, we may have to run a &quot;, mdx(&quot;a&quot;, _extends({
+  })), &quot;\n      &quot;), &quot;\n    &quot;)), mdx(&quot;p&quot;, null, &quot;Handshakes occur only when a device (re)connects to a network. For busier networks this isn\u2019t a problem as we can just wait until this happens naturally.&quot;), mdx(&quot;p&quot;, null, &quot;Where this isn\u2019t possible, we may have to run a &quot;, mdx(&quot;a&quot;, _extends({
     parentName: &quot;p&quot;
   }, {
     &quot;href&quot;: &quot;https://en.wikipedia.org/wiki/Wi-Fi_deauthentication_attack&quot;,
@@ -444,13 +444,13 @@ return function MDXContent(_ref) {
     &quot;rel&quot;: &quot;noreferrer&quot;
   }), &quot;deauthentication attack&quot;), &quot; on the target to force a handshake.&quot;), mdx(&quot;h2&quot;, {
     &quot;id&quot;: &quot;deauthentication-attacks&quot;
-  }, &quot;Deauthentication attacks&quot;), mdx(&quot;p&quot;, null, &quot;Deauthenticaiton attacks force a device to disconnect from a network.&quot;), mdx(&quot;p&quot;, null, &quot;To achieve this, the attacker poses as the access point, then sends &quot;, mdx(&quot;a&quot;, _extends({
+  }, &quot;Deauthentication attacks&quot;), mdx(&quot;p&quot;, null, &quot;Deauthentication attacks force a device to disconnect from a network.&quot;), mdx(&quot;p&quot;, null, &quot;To achieve this, the attacker poses as the access point, then sends &quot;, mdx(&quot;a&quot;, _extends({
     parentName: &quot;p&quot;
   }, {
     &quot;href&quot;: &quot;https://en.wikipedia.org/wiki/802.11#Deauthentication_frame&quot;,
     &quot;target&quot;: &quot;_blank&quot;,
     &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;deauthentication frames&quot;), &quot; to those on the network, instructing that they disconnect from the network immediately.&quot;), mdx(&quot;p&quot;, null, &quot;The recipients follow the instruction faithfully, disconnecting instantly.&quot;), mdx(&quot;p&quot;, null, &quot;From here the attacker can stop the attack, and allow the devices to reconnect automatically, leading to a handshake we can capture.&quot;), mdx(&quot;p&quot;, null, &quot;On macOS, the simplest way to run a deauthentication attack is to use an app like &quot;, mdx(&quot;a&quot;, _extends({
+  }), &quot;deauthentication frames&quot;), &quot; to those on the network, instructing that they disconnect from the network immediately.&quot;), mdx(&quot;p&quot;, null, &quot;The recipients follow the instruction faithfully, disconnecting instantly.&quot;), mdx(&quot;p&quot;, null, &quot;From here the attacker can stop the attack, and allow the devices to reconnect automatically, leading to handshakes we can capture.&quot;), mdx(&quot;p&quot;, null, &quot;On macOS, the simplest way to run a deauthentication attack is to use an app like &quot;, mdx(&quot;a&quot;, _extends({
     parentName: &quot;p&quot;
   }, {
     &quot;href&quot;: &quot;https://github.com/0x0XDev/JamWiFi/releases&quot;,
@@ -525,7 +525,7 @@ return function MDXContent(_ref) {
       &quot;top&quot;: &quot;0&quot;,
       &quot;left&quot;: &quot;0&quot;
     }
-  })), &quot;\n      &quot;), &quot;\n    &quot;)), mdx(&quot;p&quot;, null, &quot;Hashcat can work in a variety of ways, but the goal is to guess lots of possible passwords, hash them, and see if the result matches the hash target. If the hashed guess matches the target, we\u2019ve cracked the password.&quot;), mdx(&quot;p&quot;, null, &quot;The most common attack methods are dictionary attacks and brute-force attacks.&quot;), mdx(&quot;h3&quot;, {
+  })), &quot;\n      &quot;), &quot;\n    &quot;)), mdx(&quot;p&quot;, null, &quot;Hashcat can work in a variety of ways, but its goal is to guess lots of possible passwords, hash them, and see if the result matches the hash target. If the hashed guess matches the target, we\u2019ve cracked the password.&quot;), mdx(&quot;p&quot;, null, &quot;The most common attack methods are dictionary attacks and brute-force attacks.&quot;), mdx(&quot;h3&quot;, {
     &quot;id&quot;: &quot;dictionary-attacks&quot;
   }, &quot;Dictionary attacks&quot;), mdx(&quot;p&quot;, null, &quot;Dictionary attacks are fairly simple, and are the fastest way to crack basic passwords. You supply a long list of common passwords (like &quot;, mdx(&quot;a&quot;, _extends({
     parentName: &quot;p&quot;
@@ -533,7 +533,7 @@ return function MDXContent(_ref) {
     &quot;href&quot;: &quot;https://github.com/berzerk0/Probable-Wordlists/tree/master/Real-Passwords/WPA-Length&quot;,
     &quot;target&quot;: &quot;_blank&quot;,
     &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;this&quot;), &quot; one).&quot;), mdx(&quot;p&quot;, null, &quot;Each password is hashed and tested against the hash target.&quot;), mdx(&quot;p&quot;, null, &quot;This works great if the password is something like &quot;, mdx(&quot;inlineCode&quot;, {
+  }), &quot;this&quot;), &quot; one), then each password is hashed and tested against the target.&quot;), mdx(&quot;p&quot;, null, &quot;This works great if the password is something like &quot;, mdx(&quot;inlineCode&quot;, {
     parentName: &quot;p&quot;
   }, &quot;newyork1&quot;), &quot;, but not so good if it\u2019s something like &quot;, mdx(&quot;inlineCode&quot;, {
     parentName: &quot;p&quot;
@@ -541,7 +541,7 @@ return function MDXContent(_ref) {
     &quot;id&quot;: &quot;brute-force-attacks&quot;
   }, &quot;Brute-force attacks&quot;), mdx(&quot;p&quot;, null, &quot;In the case the password is more complicated, it would be better to use a brute force attack.&quot;), mdx(&quot;p&quot;, null, &quot;Here, you define a length and a possible character set, then every combination of that character set is tried up to the defined length.&quot;), mdx(&quot;p&quot;, null, &quot;For example, if you define a length of 3, and a character set made of lowercase letters, it would output guesses like this:&quot;), mdx(&quot;pre&quot;, null, mdx(&quot;code&quot;, _extends({
     parentName: &quot;pre&quot;
-  }, {}), &quot;aaa\nbaa\ncaa\n...\nzzx\nzzy\nzzz\n&quot;)), mdx(&quot;p&quot;, null, &quot;This isn\u2019t too bad for smaller passwords, especially when you\u2019re just using lower or uppercase letters, but becomes unreasonable very quickly.&quot;), mdx(&quot;p&quot;, null, &quot;The minimum length for a WPA password is 8 characters. If these are all lowercase, brute forcing is fairly reasonable.&quot;), mdx(&quot;p&quot;, null, &quot;But, if you increase the password length and start adding in numbers, uppercase letters, and special characters, brute forcing takes way too long \u2014 think lifetime of the universe.&quot;), mdx(&quot;h2&quot;, {
+  }, {}), &quot;aaa\nbaa\ncaa\n...\nzzx\nzzy\nzzz\n&quot;)), mdx(&quot;p&quot;, null, &quot;This isn\u2019t too bad for smaller passwords, especially when you\u2019re just using lower or uppercase letters, but becomes unreasonable very quickly.&quot;), mdx(&quot;p&quot;, null, &quot;The minimum length for a WPA password is 8 characters. For a password of this length, even just with upper or lowercase letters, brute-forcing will already take a considerable amount of time.&quot;), mdx(&quot;p&quot;, null, &quot;Furthermore, if you increase the password length and start adding in numbers, uppercase letters, and special characters, brute-forcing is completely unreasonable \u2014 think lifetime of the universe to crack a password.&quot;), mdx(&quot;h2&quot;, {
     &quot;id&quot;: &quot;conclusion&quot;
   }, &quot;Conclusion&quot;), mdx(&quot;p&quot;, null, &quot;Wi-Fi cracking is really very simple if the password is inadequate.&quot;), mdx(&quot;p&quot;, null, &quot;If you\u2019d like to learn more or try it out for yourself, see &quot;, mdx(&quot;a&quot;, _extends({
     parentName: &quot;p&quot;
@@ -549,13 +549,13 @@ return function MDXContent(_ref) {
     &quot;href&quot;: &quot;https://louisabraham.github.io/articles/WPA-wifi-cracking-MBP.html&quot;,
     &quot;target&quot;: &quot;_blank&quot;,
     &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;this&quot;), &quot; blog post, and my automated python script &quot;, mdx(&quot;a&quot;, _extends({
+  }), &quot;this&quot;), &quot; blog post, and &quot;, mdx(&quot;a&quot;, _extends({
     parentName: &quot;p&quot;
   }, {
     &quot;href&quot;: &quot;https://github.com/Tommrodrigues/WiFiCrackPy&quot;,
     &quot;target&quot;: &quot;_blank&quot;,
     &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;here&quot;)), mdx(&quot;p&quot;, null, &quot;When it comes to choosing a Wi-Fi password to better protect yourself from this sort of attack, your best bet is using a random password generator which uses a mixture of upper and lowercase letters, numbers, and special characters to make a password 20 or more characters long.&quot;), mdx(&quot;p&quot;, null, &quot;Do this, and you can set your mind at ease \u2014 unless somebody is willing to wait until the heat death of the universe, your network should be safe!&quot;), mdx(&quot;h2&quot;, {
+  }), &quot;this&quot;), &quot; automated python script.&quot;), mdx(&quot;p&quot;, null, &quot;When it comes to choosing a Wi-Fi password to better protect yourself from this sort of attack, your best bet is using a random password generator which uses a mixture of upper and lowercase letters, numbers, and special characters to make a password 20 or more characters long.&quot;), mdx(&quot;p&quot;, null, &quot;Do this, and you can set your mind at ease \u2014 unless somebody is willing to wait until the heat death of the universe, your network should be safe!&quot;), mdx(&quot;h2&quot;, {
     &quot;id&quot;: &quot;links&quot;
   }, &quot;Links&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
@@ -617,7 +617,7 @@ return function MDXContent(_ref) {
   return mdx(MDXLayout, _extends({}, layoutProps, props, {
     components: components,
     mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;p&quot;, null, &quot;It\u2019s never been easier to turn make your home\u2019s heating smart \u2014 there\u2019s a seemingly endless number of smart thermostats available, like those from &quot;, mdx(&quot;a&quot;, _extends({
+  }), mdx(&quot;p&quot;, null, &quot;It\u2019s never been easier to make your home\u2019s heating smart \u2014 there\u2019s a seemingly endless number of smart thermostats available, like those from &quot;, mdx(&quot;a&quot;, _extends({
     parentName: &quot;p&quot;
   }, {
     &quot;href&quot;: &quot;https://store.google.com/us/magazine/compare_thermostats?hl=en-US&amp;GoogleNest&amp;utm_source=nest_redirect&amp;utm_medium=google_oo&amp;utm_campaign=GS103056&amp;utm_term=thermostats&quot;,
@@ -661,7 +661,7 @@ return function MDXContent(_ref) {
     &quot;href&quot;: &quot;https://en.wikipedia.org/wiki/OpenTherm&quot;,
     &quot;target&quot;: &quot;_blank&quot;,
     &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;OpenTherm&quot;), &quot; is a protocol used by many modern central heating systems to allow communication between a boiler and a thermostat.&quot;), mdx(&quot;p&quot;, null, &quot;The protocol is widely used across Europe and elsewhere in the world \u2014 chances are that if you have a relatively new boiler (within the last decade or so), you\u2019ll have support for OpenTherm.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;span&quot;, _extends({
+  }), &quot;OpenTherm&quot;), &quot; is a protocol used by many modern central heating systems to allow communication between a boiler and a thermostat.&quot;), mdx(&quot;p&quot;, null, &quot;The protocol is widely used across Europe and elsewhere in the world \u2014 chances are that if you have a relatively new boiler (within the last decade or so), you\u2019ll have support for the protocol.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;span&quot;, _extends({
     parentName: &quot;p&quot;
   }, {
     &quot;className&quot;: &quot;gatsby-resp-image-wrapper&quot;,
@@ -722,7 +722,7 @@ return function MDXContent(_ref) {
     &quot;href&quot;: &quot;http://ihormelnyk.com/arduino_opentherm_controller&quot;,
     &quot;target&quot;: &quot;_blank&quot;,
     &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;This&quot;), &quot; excellent blog outlines how to make an OpenTherm adapter to act as the interface between our NodeMCU, and our OpenTherm-compatible appliance.&quot;), mdx(&quot;p&quot;, null, &quot;The circuit diagram is as follows:&quot;), mdx(&quot;p&quot;, null, mdx(&quot;span&quot;, _extends({
+  }), &quot;This&quot;), &quot; blog outlines how to make an OpenTherm adapter to act as the interface between our NodeMCU, and our OpenTherm-compatible appliance.&quot;), mdx(&quot;p&quot;, null, &quot;The circuit diagram is as follows:&quot;), mdx(&quot;p&quot;, null, mdx(&quot;span&quot;, _extends({
     parentName: &quot;p&quot;
   }, {
     &quot;className&quot;: &quot;gatsby-resp-image-wrapper&quot;,
@@ -866,7 +866,7 @@ return function MDXContent(_ref) {
     &quot;rel&quot;: &quot;noreferrer&quot;
   }), &quot;Apple HomeKit&quot;), &quot; \u2014 the rest will be taken care of.&quot;), mdx(&quot;h2&quot;, {
     &quot;id&quot;: &quot;tuning&quot;
-  }, &quot;Tuning&quot;), mdx(&quot;p&quot;, null, &quot;The PID uses some set values to work out how it should behave.&quot;), mdx(&quot;p&quot;, null, &quot;For example, if your home is well insulated, it may require more even heating over a longer period of time. Another home might instead lose heat more quickly, so the heating should be more sensitive to sudden changes.&quot;), mdx(&quot;p&quot;, null, &quot;The values the PID uses are: Kp, Ki, Kd. You can look up PID controller theory if you want more information on what each of the values are responsible for \u2014 but just know that these values will vary between homes.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;span&quot;, _extends({
+  }, &quot;Tuning&quot;), mdx(&quot;p&quot;, null, &quot;The PID controller uses some set values to work out how it should behave.&quot;), mdx(&quot;p&quot;, null, &quot;For example, if your home is well insulated, it may require more even heating over a longer period of time. Another home might instead lose heat more quickly, so the controller should be more sensitive to sudden changes.&quot;), mdx(&quot;p&quot;, null, &quot;The values the PID uses are: Kp, Ki, and Kd. You can look up PID controller theory if you want more information on what each of the values are responsible for \u2014 but just know that these values will vary between homes.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;span&quot;, _extends({
     parentName: &quot;p&quot;
   }, {
     &quot;className&quot;: &quot;gatsby-resp-image-wrapper&quot;,
@@ -921,15 +921,15 @@ return function MDXContent(_ref) {
       &quot;top&quot;: &quot;0&quot;,
       &quot;left&quot;: &quot;0&quot;
     }
-  })), &quot;\n      &quot;), &quot;\n    &quot;)), mdx(&quot;p&quot;, null, &quot;The &quot;, mdx(&quot;a&quot;, _extends({
+  })), &quot;\n      &quot;), &quot;\n    &quot;)), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;a&quot;, _extends({
     parentName: &quot;p&quot;
   }, {
     &quot;href&quot;: &quot;http://brettbeauregard.com/blog/2012/01/arduino-pid-autotune-library/&quot;,
     &quot;target&quot;: &quot;_blank&quot;,
     &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;PID auto-tuner&quot;), &quot; included in the NodeMCU makes finding the right values for your home easy.&quot;), mdx(&quot;p&quot;, null, &quot;Once you\u2019ve set your thermostat up, you should run the auto-tuner when the ambient temperature and the boiler temperature are stable.&quot;), mdx(&quot;p&quot;, null, &quot;The auto-tuner will oscillate the boiler temperature very high and very low to see how the ambient temperature reacts. Note that this may take a few hours, and your home may become uncomfortably warm/cool whilst tuning is taking place&quot;), mdx(&quot;p&quot;, null, &quot;From the tuning, the NodeMCU can back-calculate figures for each of the PID values for your home. These are ballpark figures, and will require finer manual tuning to optimise them.&quot;), mdx(&quot;h2&quot;, {
+  }), &quot;PID auto-tuner&quot;), &quot; included on the NodeMCU makes finding the right values for your home easy.&quot;), mdx(&quot;p&quot;, null, &quot;Once you\u2019ve set your thermostat up, you should run the auto-tuner when the ambient temperature and the boiler temperature are stable.&quot;), mdx(&quot;p&quot;, null, &quot;The auto-tuner will oscillate the boiler temperature very high and very low to see how the ambient temperature reacts. Note that this may take a few hours, and your home may become uncomfortably warm/cool whilst tuning is taking place&quot;), mdx(&quot;p&quot;, null, &quot;From the tuning, the NodeMCU can back-calculate figures for each of the PID values for your home. These are ballpark figures, and will require finer manual tuning to optimise them.&quot;), mdx(&quot;h2&quot;, {
     &quot;id&quot;: &quot;conclusion&quot;
-  }, &quot;Conclusion&quot;), mdx(&quot;p&quot;, null, &quot;Building your own smart thermostat is a relatively simple, and ultimately very rewarding task.&quot;), mdx(&quot;p&quot;, null, &quot;This DIY smart thermostat was a major addition to my smart home, and my family loves being able to control and schedule the heating easily from their phones.&quot;), mdx(&quot;p&quot;, null, &quot;I was also able to save more than $100, and the tuned PID does a far superior job maintaining a comfortable ambient temperature in my home than any of our previous thermostats have done.&quot;), mdx(&quot;h2&quot;, {
+  }, &quot;Conclusion&quot;), mdx(&quot;p&quot;, null, &quot;Building your own smart thermostat is a relatively simple, and ultimately very rewarding task.&quot;), mdx(&quot;p&quot;, null, &quot;This DIY smart thermostat was a major addition to my smart home, and my family loves being able to control and schedule the heating easily from their phones.&quot;), mdx(&quot;p&quot;, null, &quot;I was also able to save more than $100, and the tuned PID controller does a far superior job maintaining a comfortable ambient temperature in my home than any of our previous thermostats have done.&quot;), mdx(&quot;h2&quot;, {
     &quot;id&quot;: &quot;links&quot;
   }, &quot;Links&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
@@ -940,6 +940,14 @@ return function MDXContent(_ref) {
     &quot;target&quot;: &quot;_blank&quot;,
     &quot;rel&quot;: &quot;noreferrer&quot;
   }), &quot;Smart Thermostat&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;http://brettbeauregard.com/blog/2012/01/arduino-pid-autotune-library/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;PID Auto-tuner Post&quot;)), mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
   }, mdx(&quot;a&quot;, _extends({
     parentName: &quot;li&quot;
