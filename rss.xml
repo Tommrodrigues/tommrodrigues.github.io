@@ -1,4 +1,287 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tom Rodrigues]]></title><description><![CDATA[A blog for Tom Rodrigues]]></description><link>https://tommrodrigues.github.io</link><image><url>https://tommrodrigues.github.io/icons/icon-512x512.png</url><title>Tom Rodrigues</title><link>https://tommrodrigues.github.io</link></image><generator>GatsbyJS</generator><lastBuildDate>Wed, 06 May 2020 11:59:45 GMT</lastBuildDate><atom:link href="https://tommrodrigues.github.io/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[My DIY Smart Lights]]></title><description><![CDATA[Smart lights are the easiest and most fun way of getting into home automation, but they can be expensive!]]></description><link>https://tommrodrigues.github.io/my-diy-smart-lights</link><guid isPermaLink="false">https://tommrodrigues.github.io/my-diy-smart-lights</guid><dc:creator><![CDATA[Tom Rodrigues]]></dc:creator><pubDate>Tue, 21 Apr 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tom Rodrigues]]></title><description><![CDATA[A blog for Tom Rodrigues]]></description><link>https://tommrodrigues.github.io</link><image><url>https://tommrodrigues.github.io/icons/icon-512x512.png</url><title>Tom Rodrigues</title><link>https://tommrodrigues.github.io</link></image><generator>GatsbyJS</generator><lastBuildDate>Wed, 06 May 2020 14:27:25 GMT</lastBuildDate><atom:link href="https://tommrodrigues.github.io/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[My DIY Smart Sprinklers]]></title><description><![CDATA[Smart sprinkler systems make caring for your garden dynamic and easy. How easy is it to make our own instead?]]></description><link>https://tommrodrigues.github.io/my-diy-smart-sprinklers</link><guid isPermaLink="false">https://tommrodrigues.github.io/my-diy-smart-sprinklers</guid><dc:creator><![CDATA[Tom Rodrigues]]></dc:creator><pubDate>Tue, 05 May 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;title&quot;: &quot;My DIY Smart Sprinklers&quot;,
+  &quot;author&quot;: &quot;Tom Rodrigues&quot;,
+  &quot;date&quot;: &quot;2020-05-05T00:00:00.000Z&quot;,
+  &quot;hero&quot;: &quot;./images/hero.jpg&quot;,
+  &quot;excerpt&quot;: &quot;Smart sprinkler systems make caring for your garden dynamic and easy. How easy is it to make our own instead?&quot;
+};
+
+var makeShortcode = function makeShortcode(name) {
+  return function MDXDefaultShortcode(props) {
+    console.warn(&quot;Component &quot; + name + &quot; was not imported, exported, or provided by MDXProvider as global scope&quot;);
+    return mdx(&quot;div&quot;, props);
+  };
+};
+
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;p&quot;, null, &quot;Smart sprinkler systems are some of the most popular smart home accessories, and can make a noticeable difference to the health of your garden by dynamically changing watering schedules and durations.&quot;), mdx(&quot;p&quot;, null, &quot;To do this, smart sprinklers implement clever features like weather forecasting, cycling, and more.&quot;), mdx(&quot;p&quot;, null, &quot;Weather forecasting allows sprinkler systems to look at the weather conditions for the next few days to determine things like rainfall, temperature, and cloud cover.&quot;), mdx(&quot;p&quot;, null, &quot;Using this information, the controller can adjust watering schedules and durations for each of the zones.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;span&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-wrapper&quot;,
+    &quot;style&quot;: {
+      &quot;position&quot;: &quot;relative&quot;,
+      &quot;display&quot;: &quot;block&quot;,
+      &quot;marginLeft&quot;: &quot;auto&quot;,
+      &quot;marginRight&quot;: &quot;auto&quot;,
+      &quot;maxWidth&quot;: &quot;2550px&quot;
+    }
+  }), &quot;\n      &quot;, mdx(&quot;span&quot;, _extends({
+    parentName: &quot;span&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-background-image&quot;,
+    &quot;style&quot;: {
+      &quot;paddingBottom&quot;: &quot;66.68%&quot;,
+      &quot;position&quot;: &quot;relative&quot;,
+      &quot;bottom&quot;: &quot;0&quot;,
+      &quot;left&quot;: &quot;0&quot;,
+      &quot;backgroundImage&quot;: &quot;url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECBP/EABcBAAMBAAAAAAAAAAAAAAAAAAABAgP/2gAMAwEAAhADEAAAAczFgoKLP//EABgQAAMBAQAAAAAAAAAAAAAAAAABEQIh/9oACAEBAAEFAmrmGn3shT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEv/aAAgBAgEBPwGlP//EABoQAAEFAQAAAAAAAAAAAAAAAAABAhEhMSD/2gAIAQEABj8CSFhxtl7x/8QAGxAAAgMBAQEAAAAAAAAAAAAAAAERITFRQYH/2gAIAQEAAT8hRGfZjdXbqBOPwPpF8MNy8Jn/2gAMAwEAAgADAAAAEJAP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARMf/aAAgBAgEBPxBXdif/xAAbEAEAAwEAAwAAAAAAAAAAAAABABEhMUFR0f/aAAgBAQABPxDQgHREOEXtZ0GBgHt5cEKYFNLKZ9hVDJ7URJn/2Q==&apos;)&quot;,
+      &quot;backgroundSize&quot;: &quot;cover&quot;,
+      &quot;display&quot;: &quot;block&quot;
+    }
+  })), &quot;\n  &quot;, mdx(&quot;picture&quot;, {
+    parentName: &quot;span&quot;
+  }, &quot;\n        &quot;, mdx(&quot;source&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;srcSet&quot;: [&quot;/static/da9d659dba41d02ec8a9ca5e248a744f/a3bc4/rain.webp 2500w&quot;, &quot;/static/da9d659dba41d02ec8a9ca5e248a744f/c879a/rain.webp 2550w&quot;],
+    &quot;sizes&quot;: &quot;(max-width: 2550px) 100vw, 2550px&quot;,
+    &quot;type&quot;: &quot;image/webp&quot;
+  })), &quot;\n        &quot;, mdx(&quot;source&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;srcSet&quot;: [&quot;/static/da9d659dba41d02ec8a9ca5e248a744f/44ecf/rain.jpg 2500w&quot;, &quot;/static/da9d659dba41d02ec8a9ca5e248a744f/ad5e4/rain.jpg 2550w&quot;],
+    &quot;sizes&quot;: &quot;(max-width: 2550px) 100vw, 2550px&quot;,
+    &quot;type&quot;: &quot;image/jpeg&quot;
+  })), &quot;\n        &quot;, mdx(&quot;img&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-image&quot;,
+    &quot;src&quot;: &quot;/static/da9d659dba41d02ec8a9ca5e248a744f/ad5e4/rain.jpg&quot;,
+    &quot;alt&quot;: &quot;image&quot;,
+    &quot;title&quot;: &quot;image&quot;,
+    &quot;loading&quot;: &quot;lazy&quot;,
+    &quot;style&quot;: {
+      &quot;width&quot;: &quot;100%&quot;,
+      &quot;height&quot;: &quot;100%&quot;,
+      &quot;margin&quot;: &quot;0&quot;,
+      &quot;verticalAlign&quot;: &quot;middle&quot;,
+      &quot;position&quot;: &quot;absolute&quot;,
+      &quot;top&quot;: &quot;0&quot;,
+      &quot;left&quot;: &quot;0&quot;
+    }
+  })), &quot;\n      &quot;), &quot;\n    &quot;)), mdx(&quot;p&quot;, null, &quot;However, as I outlined in my post about &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://tommrodrigues.github.io/my-dollar99-apple-smart-home&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;My $99 Apple Smart Home&quot;), &quot;, not all of us are willing to foot the $300+ price tag that comes with devices like those from &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.rachio.com&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Rachio&quot;), &quot;.&quot;), mdx(&quot;p&quot;, null, &quot;This is what led me on my quest to design and build my very own smart sprinkler system for less than $10 using some cheap electronics and &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://github.com/homebridge/homebridge&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Homebridge&quot;), &quot;.&quot;), mdx(&quot;p&quot;, null, &quot;This post outlines how I achieved my goal, see &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://github.com/Tommrodrigues/homebridge-web-sprinklers/tree/master/examples&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;here&quot;), &quot; for more of a technical how-to.&quot;), mdx(&quot;h2&quot;, {
+    &quot;id&quot;: &quot;weather-forecasting&quot;
+  }, &quot;Weather forecasting&quot;), mdx(&quot;p&quot;, null, &quot;Using APIs like the &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://openweathermap.org/api&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;OpenWeatherMap API&quot;), &quot;, you can easily make a request with your location and API key, then get back extensive weather forecasted weather data including whether it is expected to rain, what the high and low temperature will be, when sunrise is, and how cloudy it will be.&quot;), mdx(&quot;p&quot;, null, &quot;We can take this data, and if it doesn\u2019t reach certain thresholds like a minimum temperature for the high and low forecast, or if it is expected to rain, we can cancel the next day\u2019s schedule.&quot;), mdx(&quot;p&quot;, null, &quot;Furthermore, some areas restrict which months/days you are allowed to water your garden, so we can compare the date against this list to ensure we abide by any such regulations.&quot;), mdx(&quot;h2&quot;, {
+    &quot;id&quot;: &quot;calculating-watering-times&quot;
+  }, &quot;Calculating watering times&quot;), mdx(&quot;p&quot;, null, &quot;If our thresholds are met, we can use the weather data to adjust watering times positively or negatively from some default watering duration.&quot;), mdx(&quot;p&quot;, null, &quot;For example, we might want to increase the watering time if the next day is going to be especially hot, but decrease it if it is going to be cloudy.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;span&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-wrapper&quot;,
+    &quot;style&quot;: {
+      &quot;position&quot;: &quot;relative&quot;,
+      &quot;display&quot;: &quot;block&quot;,
+      &quot;marginLeft&quot;: &quot;auto&quot;,
+      &quot;marginRight&quot;: &quot;auto&quot;,
+      &quot;maxWidth&quot;: &quot;2550px&quot;
+    }
+  }), &quot;\n      &quot;, mdx(&quot;span&quot;, _extends({
+    parentName: &quot;span&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-background-image&quot;,
+    &quot;style&quot;: {
+      &quot;paddingBottom&quot;: &quot;66.68%&quot;,
+      &quot;position&quot;: &quot;relative&quot;,
+      &quot;bottom&quot;: &quot;0&quot;,
+      &quot;left&quot;: &quot;0&quot;,
+      &quot;backgroundImage&quot;: &quot;url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMFBv/EABUBAQEAAAAAAAAAAAAAAAAAAAAC/9oADAMBAAIQAxAAAAGa+aJ1woV//8QAHhAAAAQHAAAAAAAAAAAAAAAAAQIDBAAFEhMUMTT/2gAIAQEAAQUCuGActxSzOZVEdxL+b//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABwQAAICAgMAAAAAAAAAAAAAAAERABICEEGBof/aAAgBAQAGPwKwK4jv5LZll77n/8QAGhAAAwEAAwAAAAAAAAAAAAAAAAERMRBRcf/aAAgBAQABPyGvYwpRdGswakBWDV3xn7P/2gAMAwEAAgADAAAAECTP/8QAFxEAAwEAAAAAAAAAAAAAAAAAARARQf/aAAgBAwEBPxCHF//EABYRAAMAAAAAAAAAAAAAAAAAAAEQEf/aAAgBAgEBPxARf//EABsQAQEAAwEBAQAAAAAAAAAAAAERACExcVHB/9oACAEBAAE/ENdDQCC1MbAop3NeYJJUQNHmaSCvDhl1fzOj6uf/2Q==&apos;)&quot;,
+      &quot;backgroundSize&quot;: &quot;cover&quot;,
+      &quot;display&quot;: &quot;block&quot;
+    }
+  })), &quot;\n  &quot;, mdx(&quot;picture&quot;, {
+    parentName: &quot;span&quot;
+  }, &quot;\n        &quot;, mdx(&quot;source&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;srcSet&quot;: [&quot;/static/0be38bb4b94d4b3061fbdeddf2959981/a3bc4/data.webp 2500w&quot;, &quot;/static/0be38bb4b94d4b3061fbdeddf2959981/c879a/data.webp 2550w&quot;],
+    &quot;sizes&quot;: &quot;(max-width: 2550px) 100vw, 2550px&quot;,
+    &quot;type&quot;: &quot;image/webp&quot;
+  })), &quot;\n        &quot;, mdx(&quot;source&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;srcSet&quot;: [&quot;/static/0be38bb4b94d4b3061fbdeddf2959981/44ecf/data.jpg 2500w&quot;, &quot;/static/0be38bb4b94d4b3061fbdeddf2959981/ad5e4/data.jpg 2550w&quot;],
+    &quot;sizes&quot;: &quot;(max-width: 2550px) 100vw, 2550px&quot;,
+    &quot;type&quot;: &quot;image/jpeg&quot;
+  })), &quot;\n        &quot;, mdx(&quot;img&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-image&quot;,
+    &quot;src&quot;: &quot;/static/0be38bb4b94d4b3061fbdeddf2959981/ad5e4/data.jpg&quot;,
+    &quot;alt&quot;: &quot;image&quot;,
+    &quot;title&quot;: &quot;image&quot;,
+    &quot;loading&quot;: &quot;lazy&quot;,
+    &quot;style&quot;: {
+      &quot;width&quot;: &quot;100%&quot;,
+      &quot;height&quot;: &quot;100%&quot;,
+      &quot;margin&quot;: &quot;0&quot;,
+      &quot;verticalAlign&quot;: &quot;middle&quot;,
+      &quot;position&quot;: &quot;absolute&quot;,
+      &quot;top&quot;: &quot;0&quot;,
+      &quot;left&quot;: &quot;0&quot;
+    }
+  })), &quot;\n      &quot;), &quot;\n    &quot;)), mdx(&quot;p&quot;, null, &quot;After this, we can further refine these watering times for each of the zones, as some areas will require more or less watering times than others.&quot;), mdx(&quot;p&quot;, null, &quot;After we have a duration for each of the zones, we can split watering over multiple cycles to prevent runoff, and improve plant health.&quot;), mdx(&quot;p&quot;, null, &quot;Finally, we can calculate the total amount of time required to complete the cycles for each of the zones, then subtract this from the sunrise time to get a start time for our watering schedule.&quot;), mdx(&quot;p&quot;, null, &quot;Doing this ensures that watering will finish by sunrise \u2014 the best time to finish watering to encourage proper absorption, and prevent fungal growth.&quot;), mdx(&quot;h2&quot;, {
+    &quot;id&quot;: &quot;implementation&quot;
+  }, &quot;Implementation&quot;), mdx(&quot;p&quot;, null, &quot;Implementing this is fairly simple: we can just hook up a &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.nodemcu.com/index_en.html&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;NodeMCU&quot;), &quot; to a relay board connected to each of our sprinkler zones.&quot;), mdx(&quot;p&quot;, null, &quot;From here, our scheduling and watering times can be calculated by a the &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://github.com/Tommrodrigues/homebridge-web-sprinklers&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;homebridge-web-sprinkles&quot;), &quot; plugin, then executed at the correct times by the NodeMCU.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;span&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-wrapper&quot;,
+    &quot;style&quot;: {
+      &quot;position&quot;: &quot;relative&quot;,
+      &quot;display&quot;: &quot;block&quot;,
+      &quot;marginLeft&quot;: &quot;auto&quot;,
+      &quot;marginRight&quot;: &quot;auto&quot;,
+      &quot;maxWidth&quot;: &quot;2550px&quot;
+    }
+  }), &quot;\n      &quot;, mdx(&quot;span&quot;, _extends({
+    parentName: &quot;span&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-background-image&quot;,
+    &quot;style&quot;: {
+      &quot;paddingBottom&quot;: &quot;66.68%&quot;,
+      &quot;position&quot;: &quot;relative&quot;,
+      &quot;bottom&quot;: &quot;0&quot;,
+      &quot;left&quot;: &quot;0&quot;,
+      &quot;backgroundImage&quot;: &quot;url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAECAwQF/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAECA//aAAwDAQACEAMQAAAB01p51E5gz//EABkQAQEBAQEBAAAAAAAAAAAAAAECAAMREv/aAAgBAQABBQKflOvE3OYZEz5rtK//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAYEAEAAwEAAAAAAAAAAAAAAAAAARExIf/aAAgBAQAGPwJcOsYmn//EABsQAAMBAAMBAAAAAAAAAAAAAAABIRExQVGh/9oACAEBAAE/Ic7oRxW7HShVQycSF+hDs1fT/9oADAMBAAIAAwAAABD8D//EABYRAQEBAAAAAAAAAAAAAAAAAAARIf/aAAgBAwEBPxCMf//EABYRAQEBAAAAAAAAAAAAAAAAAAARAf/aAAgBAgEBPxC4j//EAB0QAQEAAgEFAAAAAAAAAAAAAAERACExQVFxgaH/2gAIAQEAAT8QjGPxrNIJhABvWvbBnLKhzGXGR9MdttPTBrtWcnP/2Q==&apos;)&quot;,
+      &quot;backgroundSize&quot;: &quot;cover&quot;,
+      &quot;display&quot;: &quot;block&quot;
+    }
+  })), &quot;\n  &quot;, mdx(&quot;picture&quot;, {
+    parentName: &quot;span&quot;
+  }, &quot;\n        &quot;, mdx(&quot;source&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;srcSet&quot;: [&quot;/static/84c99fd8ba1fbc0faa8c6df8c0b83c2c/a3bc4/sprinkler.webp 2500w&quot;, &quot;/static/84c99fd8ba1fbc0faa8c6df8c0b83c2c/c879a/sprinkler.webp 2550w&quot;],
+    &quot;sizes&quot;: &quot;(max-width: 2550px) 100vw, 2550px&quot;,
+    &quot;type&quot;: &quot;image/webp&quot;
+  })), &quot;\n        &quot;, mdx(&quot;source&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;srcSet&quot;: [&quot;/static/84c99fd8ba1fbc0faa8c6df8c0b83c2c/44ecf/sprinkler.jpg 2500w&quot;, &quot;/static/84c99fd8ba1fbc0faa8c6df8c0b83c2c/ad5e4/sprinkler.jpg 2550w&quot;],
+    &quot;sizes&quot;: &quot;(max-width: 2550px) 100vw, 2550px&quot;,
+    &quot;type&quot;: &quot;image/jpeg&quot;
+  })), &quot;\n        &quot;, mdx(&quot;img&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-image&quot;,
+    &quot;src&quot;: &quot;/static/84c99fd8ba1fbc0faa8c6df8c0b83c2c/ad5e4/sprinkler.jpg&quot;,
+    &quot;alt&quot;: &quot;image&quot;,
+    &quot;title&quot;: &quot;image&quot;,
+    &quot;loading&quot;: &quot;lazy&quot;,
+    &quot;style&quot;: {
+      &quot;width&quot;: &quot;100%&quot;,
+      &quot;height&quot;: &quot;100%&quot;,
+      &quot;margin&quot;: &quot;0&quot;,
+      &quot;verticalAlign&quot;: &quot;middle&quot;,
+      &quot;position&quot;: &quot;absolute&quot;,
+      &quot;top&quot;: &quot;0&quot;,
+      &quot;left&quot;: &quot;0&quot;
+    }
+  })), &quot;\n      &quot;), &quot;\n    &quot;)), mdx(&quot;p&quot;, null, &quot;As a result, we can take a hands-free approach to looking after our garden as everything will be calculated for us in accordance with the weather forecast calculations.&quot;), mdx(&quot;p&quot;, null, &quot;Because we have implemented this with &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.apple.com/ios/home/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Apple HomeKit&quot;), &quot;, we can also have manual control over each zone, allowing us fo manually activate and deactivate each zone for whatever reason if we want to override the system.&quot;), mdx(&quot;h2&quot;, {
+    &quot;id&quot;: &quot;conclusion&quot;
+  }, &quot;Conclusion&quot;), mdx(&quot;p&quot;, null, &quot;Making your own smart sprinkler system is ultimately very simple, and is a great way to save some money.&quot;), mdx(&quot;p&quot;, null, &quot;With some simple modifications, it also opens up a practically endless number of ways you can calculate watering times and schedules to gain more refined control.&quot;), mdx(&quot;h2&quot;, {
+    &quot;id&quot;: &quot;links&quot;
+  }, &quot;Links&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://github.com/Tommrodrigues/homebridge-web-sprinklers/tree/master/examples&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Smart Sprinklers&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://github.com/Tommrodrigues/homebridge-web-sprinklers&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;homebridge-web-sprinkles&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://tommrodrigues.github.io/my-dollar99-apple-smart-home&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;My $99 Apple Smart Home&quot;))), mdx(&quot;p&quot;, null, &quot;P.S. Buy your parts from AliExpress, it\u2019s way cheaper than Amazon!&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[My DIY Smart Lights]]></title><description><![CDATA[Smart lights are the easiest and most fun way of getting into home automation, but they can be expensive!]]></description><link>https://tommrodrigues.github.io/my-diy-smart-lights</link><guid isPermaLink="false">https://tommrodrigues.github.io/my-diy-smart-lights</guid><dc:creator><![CDATA[Tom Rodrigues]]></dc:creator><pubDate>Tue, 21 Apr 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
 
@@ -34,7 +317,7 @@ return function MDXContent(_ref) {
   }), mdx(&quot;p&quot;, null, &quot;Smart lights are easily the most ubiquitous smart-home products. They look great, come in all shapes and sizes, and can be a gateway drug for further home automation.&quot;), mdx(&quot;p&quot;, null, &quot;However, as I outlined in my post about &quot;, mdx(&quot;a&quot;, _extends({
     parentName: &quot;p&quot;
   }, {
-    &quot;href&quot;: &quot;http://tommrodrigues.github.io/My-dollar99-Apple-Smart-Home&quot;,
+    &quot;href&quot;: &quot;https://tommrodrigues.github.io/my-dollar99-apple-smart-home&quot;,
     &quot;target&quot;: &quot;_blank&quot;,
     &quot;rel&quot;: &quot;noreferrer&quot;
   }), &quot;My $99 Apple Smart Home&quot;), &quot;, not all of us are willing to foot the &quot;, mdx(&quot;a&quot;, _extends({
@@ -299,7 +582,7 @@ return function MDXContent(_ref) {
   }, mdx(&quot;a&quot;, _extends({
     parentName: &quot;li&quot;
   }, {
-    &quot;href&quot;: &quot;http://tommrodrigues.github.io/My-dollar99-Apple-Smart-Home&quot;,
+    &quot;href&quot;: &quot;https://tommrodrigues.github.io/my-dollar99-apple-smart-home&quot;,
     &quot;target&quot;: &quot;_blank&quot;,
     &quot;rel&quot;: &quot;noreferrer&quot;
   }), &quot;My $99 Apple Smart Home&quot;)), mdx(&quot;li&quot;, {
@@ -947,16 +1230,10 @@ return function MDXContent(_ref) {
   }), &quot;Honeywell&quot;), &quot;.&quot;), mdx(&quot;p&quot;, null, &quot;Of course, as I outlined in my post about &quot;, mdx(&quot;a&quot;, _extends({
     parentName: &quot;p&quot;
   }, {
-    &quot;href&quot;: &quot;http://tommrodrigues.github.io/My-dollar99-Apple-Smart-Home&quot;,
+    &quot;href&quot;: &quot;https://tommrodrigues.github.io/my-dollar99-apple-smart-home&quot;,
     &quot;target&quot;: &quot;_blank&quot;,
     &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;My $99 Apple Smart Home&quot;), &quot;, not all of us are willing to foot the $100+ price tag that comes with many of these smart devices.&quot;), mdx(&quot;p&quot;, null, &quot;This is what led me on my quest to design and build my very own smart thermostat for less than $10 using a &quot;, mdx(&quot;a&quot;, _extends({
-    parentName: &quot;p&quot;
-  }, {
-    &quot;href&quot;: &quot;https://www.nodemcu.com/index_en.html&quot;,
-    &quot;target&quot;: &quot;_blank&quot;,
-    &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;NodeMCU&quot;), &quot;, some circuitry, and &quot;, mdx(&quot;a&quot;, _extends({
+  }), &quot;My $99 Apple Smart Home&quot;), &quot;, not all of us are willing to foot the $100+ price tag that comes with many of these smart devices.&quot;), mdx(&quot;p&quot;, null, &quot;This is what led me on my quest to design and build my very own smart thermostat for less than $10 using some cheap electronics and &quot;, mdx(&quot;a&quot;, _extends({
     parentName: &quot;p&quot;
   }, {
     &quot;href&quot;: &quot;https://github.com/homebridge/homebridge&quot;,
@@ -1031,7 +1308,13 @@ return function MDXContent(_ref) {
       &quot;top&quot;: &quot;0&quot;,
       &quot;left&quot;: &quot;0&quot;
     }
-  })), &quot;\n      &quot;), &quot;\n    &quot;)), mdx(&quot;p&quot;, null, &quot;The first question is: how do you get a NodeMCU to talk to a boiler using the OpenTherm protocol?&quot;), mdx(&quot;p&quot;, null, &quot;Well, thankfully, most of the work has already been done for us.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;a&quot;, _extends({
+  })), &quot;\n      &quot;), &quot;\n    &quot;)), mdx(&quot;p&quot;, null, &quot;The first question is: how do you get something like a &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.nodemcu.com/index_en.html&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;NodeMCU&quot;), &quot; to talk to a boiler using the OpenTherm protocol?&quot;), mdx(&quot;p&quot;, null, &quot;Well, thankfully, most of the work has already been done for us.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;a&quot;, _extends({
     parentName: &quot;p&quot;
   }, {
     &quot;href&quot;: &quot;http://ihormelnyk.com/arduino_opentherm_controller&quot;,
@@ -1275,7 +1558,7 @@ return function MDXContent(_ref) {
   }, mdx(&quot;a&quot;, _extends({
     parentName: &quot;li&quot;
   }, {
-    &quot;href&quot;: &quot;http://tommrodrigues.github.io/My-dollar99-Apple-Smart-Home&quot;,
+    &quot;href&quot;: &quot;https://tommrodrigues.github.io/my-dollar99-apple-smart-home&quot;,
     &quot;target&quot;: &quot;_blank&quot;,
     &quot;rel&quot;: &quot;noreferrer&quot;
   }), &quot;My $99 Apple Smart Home&quot;)), mdx(&quot;li&quot;, {
