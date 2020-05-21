@@ -1,4 +1,268 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tom Rodrigues]]></title><description><![CDATA[A blog for Tom Rodrigues]]></description><link>https://tommrodrigues.github.io</link><image><url>https://tommrodrigues.github.io/icons/icon-512x512.png</url><title>Tom Rodrigues</title><link>https://tommrodrigues.github.io</link></image><generator>GatsbyJS</generator><lastBuildDate>Wed, 20 May 2020 23:22:50 GMT</lastBuildDate><atom:link href="https://tommrodrigues.github.io/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[My DIY Smart Sprinklers]]></title><description><![CDATA[Smart sprinkler systems make caring for your garden dynamic and easy. How easy is it to make our own instead?]]></description><link>https://tommrodrigues.github.io/my-diy-smart-sprinklers</link><guid isPermaLink="false">https://tommrodrigues.github.io/my-diy-smart-sprinklers</guid><dc:creator><![CDATA[Tom Rodrigues]]></dc:creator><pubDate>Tue, 05 May 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tom Rodrigues]]></title><description><![CDATA[A blog for Tom Rodrigues]]></description><link>https://tommrodrigues.github.io</link><image><url>https://tommrodrigues.github.io/icons/icon-512x512.png</url><title>Tom Rodrigues</title><link>https://tommrodrigues.github.io</link></image><generator>GatsbyJS</generator><lastBuildDate>Thu, 21 May 2020 23:51:11 GMT</lastBuildDate><atom:link href="https://tommrodrigues.github.io/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[RNA Vaccines]]></title><description><![CDATA[Developing vaccines usually takes a long time, but during a pandemic, time is at a premium. RNA vaccines are the solution.]]></description><link>https://tommrodrigues.github.io/rna-vaccines</link><guid isPermaLink="false">https://tommrodrigues.github.io/rna-vaccines</guid><dc:creator><![CDATA[Tom Rodrigues]]></dc:creator><pubDate>Thu, 21 May 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;title&quot;: &quot;RNA Vaccines&quot;,
+  &quot;author&quot;: &quot;Tom Rodrigues&quot;,
+  &quot;date&quot;: &quot;2020-05-21T00:00:00.000Z&quot;,
+  &quot;hero&quot;: &quot;./images/hero.jpg&quot;,
+  &quot;excerpt&quot;: &quot;Developing vaccines usually takes a long time, but during a pandemic, time is at a premium. RNA vaccines are the solution.&quot;
+};
+
+var makeShortcode = function makeShortcode(name) {
+  return function MDXDefaultShortcode(props) {
+    console.warn(&quot;Component &quot; + name + &quot; was not imported, exported, or provided by MDXProvider as global scope&quot;);
+    return mdx(&quot;div&quot;, props);
+  };
+};
+
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;p&quot;, null, &quot;As the COVID-19 outbreak moves away from its peak phase, we enter a possibly more challenging period: managing the long-term presence of the virus.&quot;), mdx(&quot;p&quot;, null, &quot;We also face the reality that this pandemic was not the first, and will certainly not be the last of its kind. Experts have said for years that it is not a question of if, but when we will face another viral pandemic.&quot;), mdx(&quot;p&quot;, null, &quot;The truth is, whilst this pandemic has been devastating in countless ways, it should really be seen as a warning shot. It shows that we continue to be unprepared for a pandemic of such a scale.&quot;), mdx(&quot;p&quot;, null, &quot;More worrisome is if we consider a potential outbreak with the same transmission rate as SARS-CoV-2, but with a mortality rate more similar to a disease like Ebola.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;span&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-wrapper&quot;,
+    &quot;style&quot;: {
+      &quot;position&quot;: &quot;relative&quot;,
+      &quot;display&quot;: &quot;block&quot;,
+      &quot;marginLeft&quot;: &quot;auto&quot;,
+      &quot;marginRight&quot;: &quot;auto&quot;,
+      &quot;maxWidth&quot;: &quot;2550px&quot;
+    }
+  }), &quot;\n      &quot;, mdx(&quot;span&quot;, _extends({
+    parentName: &quot;span&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-background-image&quot;,
+    &quot;style&quot;: {
+      &quot;paddingBottom&quot;: &quot;66.68%&quot;,
+      &quot;position&quot;: &quot;relative&quot;,
+      &quot;bottom&quot;: &quot;0&quot;,
+      &quot;left&quot;: &quot;0&quot;,
+      &quot;backgroundImage&quot;: &quot;url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBP/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAFLLJbmUi//xAAaEAACAwEBAAAAAAAAAAAAAAABAgAREgMi/9oACAEBAAEFAsVGysHYgX6daOjP/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAESIf/aAAgBAwEBPwGNVf/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/AVf/xAAdEAABAgcAAAAAAAAAAAAAAAABACECEBExQVFh/9oACAEBAAY/AqsOBF1ZGHWZ/wD/xAAcEAEAAgMAAwAAAAAAAAAAAAABABEhMVFBYYH/2gAIAQEAAT8hFWhcI7D6VMQb8gjvYgrzd7iPm5//2gAMAwEAAgADAAAAEHQv/8QAFhEBAQEAAAAAAAAAAAAAAAAAARAR/9oACAEDAQE/EAvJ/8QAFhEBAQEAAAAAAAAAAAAAAAAAARAR/9oACAECAQE/ENAj/8QAHBABAQADAAMBAAAAAAAAAAAAAREAITFBYZHw/9oACAEBAAE/ECGTAEb/AHvKoBADo+IZKV904x5os4b+ZoNeyN5BJo6mf//Z&apos;)&quot;,
+      &quot;backgroundSize&quot;: &quot;cover&quot;,
+      &quot;display&quot;: &quot;block&quot;
+    }
+  })), &quot;\n  &quot;, mdx(&quot;picture&quot;, {
+    parentName: &quot;span&quot;
+  }, &quot;\n        &quot;, mdx(&quot;source&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;srcSet&quot;: [&quot;/static/db42a571d05066d49c7c2a5a042cc8d3/a3bc4/ebola.webp 2500w&quot;, &quot;/static/db42a571d05066d49c7c2a5a042cc8d3/c879a/ebola.webp 2550w&quot;],
+    &quot;sizes&quot;: &quot;(max-width: 2550px) 100vw, 2550px&quot;,
+    &quot;type&quot;: &quot;image/webp&quot;
+  })), &quot;\n        &quot;, mdx(&quot;source&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;srcSet&quot;: [&quot;/static/db42a571d05066d49c7c2a5a042cc8d3/44ecf/ebola.jpg 2500w&quot;, &quot;/static/db42a571d05066d49c7c2a5a042cc8d3/ad5e4/ebola.jpg 2550w&quot;],
+    &quot;sizes&quot;: &quot;(max-width: 2550px) 100vw, 2550px&quot;,
+    &quot;type&quot;: &quot;image/jpeg&quot;
+  })), &quot;\n        &quot;, mdx(&quot;img&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-image&quot;,
+    &quot;src&quot;: &quot;/static/db42a571d05066d49c7c2a5a042cc8d3/ad5e4/ebola.jpg&quot;,
+    &quot;alt&quot;: &quot;image&quot;,
+    &quot;title&quot;: &quot;image&quot;,
+    &quot;loading&quot;: &quot;lazy&quot;,
+    &quot;style&quot;: {
+      &quot;width&quot;: &quot;100%&quot;,
+      &quot;height&quot;: &quot;100%&quot;,
+      &quot;margin&quot;: &quot;0&quot;,
+      &quot;verticalAlign&quot;: &quot;middle&quot;,
+      &quot;position&quot;: &quot;absolute&quot;,
+      &quot;top&quot;: &quot;0&quot;,
+      &quot;left&quot;: &quot;0&quot;
+    }
+  })), &quot;\n      &quot;), &quot;\n    &quot;)), mdx(&quot;p&quot;, null, &quot;In the roughly two-century history of modern vaccination practices, we\u2019ve gotten pretty good at finding ways to protect ourselves from infectious diseases, and there\u2019s little doubt that we\u2019ll do the same for SARS-CoV-2.&quot;), mdx(&quot;p&quot;, null, &quot;But developing a vaccine against a pathogen takes time, and in a pandemic situation, time is exactly what\u2019s at a premium.&quot;), mdx(&quot;h2&quot;, {
+    &quot;id&quot;: &quot;basic-immunology&quot;
+  }, &quot;Basic immunology&quot;), mdx(&quot;p&quot;, null, &quot;The immune system is remarkably complex system that is capable of recognising and eliminating invading organisms, and then developing a \u2018memory\u2019 of the invader so that future infections can be dealt with straight away.&quot;), mdx(&quot;p&quot;, null, &quot;At its heart, the immune system functions by responding to the proteins present on the surface invading pathogens (antigens).&quot;), mdx(&quot;p&quot;, null, mdx(&quot;span&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-wrapper&quot;,
+    &quot;style&quot;: {
+      &quot;position&quot;: &quot;relative&quot;,
+      &quot;display&quot;: &quot;block&quot;,
+      &quot;marginLeft&quot;: &quot;auto&quot;,
+      &quot;marginRight&quot;: &quot;auto&quot;,
+      &quot;maxWidth&quot;: &quot;3578px&quot;
+    }
+  }), &quot;\n      &quot;, mdx(&quot;span&quot;, _extends({
+    parentName: &quot;span&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-background-image&quot;,
+    &quot;style&quot;: {
+      &quot;paddingBottom&quot;: &quot;56.279999999999994%&quot;,
+      &quot;position&quot;: &quot;relative&quot;,
+      &quot;bottom&quot;: &quot;0&quot;,
+      &quot;left&quot;: &quot;0&quot;,
+      &quot;backgroundImage&quot;: &quot;url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAQX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAAB5lcLSkGDP//EABkQAAMBAQEAAAAAAAAAAAAAAAABAhEDEv/aAAgBAQABBQLmtdSvBI6eH//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/ASf/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAXEAADAQAAAAAAAAAAAAAAAAAAARAx/9oACAEBAAY/Ah3Z/8QAFxABAQEBAAAAAAAAAAAAAAAAAQARMf/aAAgBAQABPyEBG0mAk9lNwrJ7f//aAAwDAQACAAMAAAAQHA//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAwEBPxBgT//EABYRAQEBAAAAAAAAAAAAAAAAAAEQIf/aAAgBAgEBPxBNn//EABoQAQEAAwEBAAAAAAAAAAAAAAEAETFRIUH/2gAIAQEAAT8QETIuuy/hg6iZeEhhGFscTZ//2Q==&apos;)&quot;,
+      &quot;backgroundSize&quot;: &quot;cover&quot;,
+      &quot;display&quot;: &quot;block&quot;
+    }
+  })), &quot;\n  &quot;, mdx(&quot;picture&quot;, {
+    parentName: &quot;span&quot;
+  }, &quot;\n        &quot;, mdx(&quot;source&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;srcSet&quot;: [&quot;/static/8a9d161d7455877e212d6b5794561199/a3bc4/virus.webp 2500w&quot;, &quot;/static/8a9d161d7455877e212d6b5794561199/d8522/virus.webp 3578w&quot;],
+    &quot;sizes&quot;: &quot;(max-width: 3578px) 100vw, 3578px&quot;,
+    &quot;type&quot;: &quot;image/webp&quot;
+  })), &quot;\n        &quot;, mdx(&quot;source&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;srcSet&quot;: [&quot;/static/8a9d161d7455877e212d6b5794561199/44ecf/virus.jpg 2500w&quot;, &quot;/static/8a9d161d7455877e212d6b5794561199/69a47/virus.jpg 3578w&quot;],
+    &quot;sizes&quot;: &quot;(max-width: 3578px) 100vw, 3578px&quot;,
+    &quot;type&quot;: &quot;image/jpeg&quot;
+  })), &quot;\n        &quot;, mdx(&quot;img&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-image&quot;,
+    &quot;src&quot;: &quot;/static/8a9d161d7455877e212d6b5794561199/69a47/virus.jpg&quot;,
+    &quot;alt&quot;: &quot;image&quot;,
+    &quot;title&quot;: &quot;image&quot;,
+    &quot;loading&quot;: &quot;lazy&quot;,
+    &quot;style&quot;: {
+      &quot;width&quot;: &quot;100%&quot;,
+      &quot;height&quot;: &quot;100%&quot;,
+      &quot;margin&quot;: &quot;0&quot;,
+      &quot;verticalAlign&quot;: &quot;middle&quot;,
+      &quot;position&quot;: &quot;absolute&quot;,
+      &quot;top&quot;: &quot;0&quot;,
+      &quot;left&quot;: &quot;0&quot;
+    }
+  })), &quot;\n      &quot;), &quot;\n    &quot;)), mdx(&quot;p&quot;, null, &quot;The innate immune system is a rapid-reaction force of cells that bind to, and engulf, anything bearing non-self antigens.&quot;), mdx(&quot;p&quot;, null, &quot;The invader is broken down, and the antigens are presented to cells of the adaptive immune system, which then begins the slower process of creating antibodies that bind to the invader\u2019s proteins to eliminate them.&quot;), mdx(&quot;p&quot;, null, &quot;Once an infection has been dealt with, antibody production for the pathogen will greatly reduce, but the body keeps a memory of the invader, so that in the event of re-infection, the immune system will be able to respond far more rapidly.&quot;), mdx(&quot;h2&quot;, {
+    &quot;id&quot;: &quot;traditional-vaccinology&quot;
+  }, &quot;Traditional vaccinology&quot;), mdx(&quot;p&quot;, null, &quot;Traditionally, scientists have developed vaccines which protect us from pathogen by exposing our immune systems to weakened versions of pathogens.&quot;), mdx(&quot;p&quot;, null, &quot;This prepares the immune system for a \u2018real\u2019 infection by triggering an immune response without you actually having to go through the disease process.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;span&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-wrapper&quot;,
+    &quot;style&quot;: {
+      &quot;position&quot;: &quot;relative&quot;,
+      &quot;display&quot;: &quot;block&quot;,
+      &quot;marginLeft&quot;: &quot;auto&quot;,
+      &quot;marginRight&quot;: &quot;auto&quot;,
+      &quot;maxWidth&quot;: &quot;2135px&quot;
+    }
+  }), &quot;\n      &quot;, mdx(&quot;span&quot;, _extends({
+    parentName: &quot;span&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-background-image&quot;,
+    &quot;style&quot;: {
+      &quot;paddingBottom&quot;: &quot;78.87587822014052%&quot;,
+      &quot;position&quot;: &quot;relative&quot;,
+      &quot;bottom&quot;: &quot;0&quot;,
+      &quot;left&quot;: &quot;0&quot;,
+      &quot;backgroundImage&quot;: &quot;url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAQABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQCAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAFtGVhqC4f/xAAZEAACAwEAAAAAAAAAAAAAAAABAgADERL/2gAIAQEAAQUCYytWrfYx6IwxU1f/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAcEAEAAgEFAAAAAAAAAAAAAAABABECEBIhMVH/2gAIAQEABj8Clqt6Ll1L8g7suZ//xAAcEAADAAIDAQAAAAAAAAAAAAAAARExUSFBgZH/2gAIAQEAAT8hhKuhYTF8Ek4wTw9vSfT6JSlJYng//9oADAMBAAIAAwAAABDAD//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EAB0QAQADAAIDAQAAAAAAAAAAAAEAESExQVFhcdH/2gAIAQEAAT8QRoAv3o1nU0N7FsOWuwxOrKjBpmC6pUU+fyFF1JQrh7v5ANNEYBOOJ//Z&apos;)&quot;,
+      &quot;backgroundSize&quot;: &quot;cover&quot;,
+      &quot;display&quot;: &quot;block&quot;
+    }
+  })), &quot;\n  &quot;, mdx(&quot;picture&quot;, {
+    parentName: &quot;span&quot;
+  }, &quot;\n        &quot;, mdx(&quot;source&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;srcSet&quot;: [&quot;/static/8e7df1bfcba8a91cf29ddfeaff19a759/c4f50/vaccine.webp 2135w&quot;],
+    &quot;sizes&quot;: &quot;(max-width: 2135px) 100vw, 2135px&quot;,
+    &quot;type&quot;: &quot;image/webp&quot;
+  })), &quot;\n        &quot;, mdx(&quot;source&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;srcSet&quot;: [&quot;/static/8e7df1bfcba8a91cf29ddfeaff19a759/3c4a2/vaccine.jpg 2135w&quot;],
+    &quot;sizes&quot;: &quot;(max-width: 2135px) 100vw, 2135px&quot;,
+    &quot;type&quot;: &quot;image/jpeg&quot;
+  })), &quot;\n        &quot;, mdx(&quot;img&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-image&quot;,
+    &quot;src&quot;: &quot;/static/8e7df1bfcba8a91cf29ddfeaff19a759/3c4a2/vaccine.jpg&quot;,
+    &quot;alt&quot;: &quot;image&quot;,
+    &quot;title&quot;: &quot;image&quot;,
+    &quot;loading&quot;: &quot;lazy&quot;,
+    &quot;style&quot;: {
+      &quot;width&quot;: &quot;100%&quot;,
+      &quot;height&quot;: &quot;100%&quot;,
+      &quot;margin&quot;: &quot;0&quot;,
+      &quot;verticalAlign&quot;: &quot;middle&quot;,
+      &quot;position&quot;: &quot;absolute&quot;,
+      &quot;top&quot;: &quot;0&quot;,
+      &quot;left&quot;: &quot;0&quot;
+    }
+  })), &quot;\n      &quot;), &quot;\n    &quot;)), mdx(&quot;p&quot;, null, &quot;However, safely creating a version of the pathogen that correctly stimulates the immune system, without causing the disease it\u2019s meant to prevent, is very difficult.&quot;), mdx(&quot;p&quot;, null, &quot;This process of producing the vaccine typically requires the growing of viruses in chicken eggs or mammalian cell cultures, making it an incredibly slow, costly, and resource intensive process.&quot;), mdx(&quot;p&quot;, null, &quot;The time taken to produce a vaccine, plus the time required for research, development, and testing, can easily be counted in years.&quot;), mdx(&quot;h2&quot;, {
+    &quot;id&quot;: &quot;rna-vaccines&quot;
+  }, &quot;RNA vaccines&quot;), mdx(&quot;p&quot;, null, &quot;To shorten the development time of a new vaccine, scientists are attempting to leverage genetic engineering by essentially making the people manufacture their own vaccine.&quot;), mdx(&quot;p&quot;, null, &quot;RNA vaccines work not by introducing viral proteins into the patient, but rather the instructions for making those proteins in the patient\u2019s own cells.&quot;), mdx(&quot;p&quot;, null, &quot;Without going into too much depth, messenger RNA, or mRNA, is produced in cells during transcription, where sections of DNA inside the nucleus of a cell are copied.&quot;), mdx(&quot;p&quot;, null, &quot;This transcript moves out of the nucleus of the cell to be read by ribosomes which create strings of amino acids in a process called translation. These polypeptide strings then fold up into complex shapes that dictate their function as finished proteins.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;span&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-wrapper&quot;,
+    &quot;style&quot;: {
+      &quot;position&quot;: &quot;relative&quot;,
+      &quot;display&quot;: &quot;block&quot;,
+      &quot;marginLeft&quot;: &quot;auto&quot;,
+      &quot;marginRight&quot;: &quot;auto&quot;,
+      &quot;maxWidth&quot;: &quot;2550px&quot;
+    }
+  }), &quot;\n      &quot;, mdx(&quot;span&quot;, _extends({
+    parentName: &quot;span&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-background-image&quot;,
+    &quot;style&quot;: {
+      &quot;paddingBottom&quot;: &quot;66.68%&quot;,
+      &quot;position&quot;: &quot;relative&quot;,
+      &quot;bottom&quot;: &quot;0&quot;,
+      &quot;left&quot;: &quot;0&quot;,
+      &quot;backgroundImage&quot;: &quot;url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIEA//EABUBAQEAAAAAAAAAAAAAAAAAAAMC/9oADAMBAAIQAxAAAAGZEpechQE//8QAGRAAAwEBAQAAAAAAAAAAAAAAAQIDABES/9oACAEBAAEFAqBSUVe+O6Y10CzlVgv/xAAWEQEBAQAAAAAAAAAAAAAAAAAAAhL/2gAIAQMBAT8Blp//xAAZEQACAwEAAAAAAAAAAAAAAAAAAQIREnH/2gAIAQIBAT8Bm1XTB//EABsQAAIBBQAAAAAAAAAAAAAAAAABIRARMUGR/9oACAEBAAY/AtMwukUgsf/EABsQAQADAQADAAAAAAAAAAAAAAEAESExQYGR/9oACAEBAAE/IQ1nsiBQ54gNkLs2d+kKoCs52alxn//aAAwDAQACAAMAAAAQH8//xAAZEQACAwEAAAAAAAAAAAAAAAAAEQExQVH/2gAIAQMBAT8QSowTh//EABgRAAIDAAAAAAAAAAAAAAAAAAARASFx/9oACAECAQE/EErixo//xAAaEAEAAwEBAQAAAAAAAAAAAAABABEhMUFx/9oACAEBAAE/EO3smsr5UcGVunb8FihNbhdRbqKoYIRxahIMMTBUgbP/2Q==&apos;)&quot;,
+      &quot;backgroundSize&quot;: &quot;cover&quot;,
+      &quot;display&quot;: &quot;block&quot;
+    }
+  })), &quot;\n  &quot;, mdx(&quot;picture&quot;, {
+    parentName: &quot;span&quot;
+  }, &quot;\n        &quot;, mdx(&quot;source&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;srcSet&quot;: [&quot;/static/7960e45e050311988f65bcd90e120e13/a3bc4/petri.webp 2500w&quot;, &quot;/static/7960e45e050311988f65bcd90e120e13/c879a/petri.webp 2550w&quot;],
+    &quot;sizes&quot;: &quot;(max-width: 2550px) 100vw, 2550px&quot;,
+    &quot;type&quot;: &quot;image/webp&quot;
+  })), &quot;\n        &quot;, mdx(&quot;source&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;srcSet&quot;: [&quot;/static/7960e45e050311988f65bcd90e120e13/44ecf/petri.jpg 2500w&quot;, &quot;/static/7960e45e050311988f65bcd90e120e13/ad5e4/petri.jpg 2550w&quot;],
+    &quot;sizes&quot;: &quot;(max-width: 2550px) 100vw, 2550px&quot;,
+    &quot;type&quot;: &quot;image/jpeg&quot;
+  })), &quot;\n        &quot;, mdx(&quot;img&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-image&quot;,
+    &quot;src&quot;: &quot;/static/7960e45e050311988f65bcd90e120e13/ad5e4/petri.jpg&quot;,
+    &quot;alt&quot;: &quot;image&quot;,
+    &quot;title&quot;: &quot;image&quot;,
+    &quot;loading&quot;: &quot;lazy&quot;,
+    &quot;style&quot;: {
+      &quot;width&quot;: &quot;100%&quot;,
+      &quot;height&quot;: &quot;100%&quot;,
+      &quot;margin&quot;: &quot;0&quot;,
+      &quot;verticalAlign&quot;: &quot;middle&quot;,
+      &quot;position&quot;: &quot;absolute&quot;,
+      &quot;top&quot;: &quot;0&quot;,
+      &quot;left&quot;: &quot;0&quot;
+    }
+  })), &quot;\n      &quot;), &quot;\n    &quot;)), mdx(&quot;p&quot;, null, &quot;An RNA vaccine, not at all unlike the the actual process of viral infection, seeks to place a specific genetic sequence into cells in such a way that it will be translated into proteins.&quot;), mdx(&quot;p&quot;, null, &quot;But, where a virus injects a complete genome into the host cell to hijack the cell\u2019s machinery to make more copies of itself, an RNA vaccine\u2019s payload is very limited, just containing the instructions for the antigens of the target pathogen.&quot;), mdx(&quot;p&quot;, null, &quot;Once the RNA vaccine has been introduced into a patient, the cells will dutifully translate the genetic code, producing the desired antigens.&quot;), mdx(&quot;p&quot;, null, &quot;By doing this, the patient\u2019s own cells are essentially doing the job normally done in chicken eggs or a cell culture, with no need for expensive and time-consuming purification of the final product.&quot;), mdx(&quot;h2&quot;, {
+    &quot;id&quot;: &quot;conclusion&quot;
+  }, &quot;Conclusion&quot;), mdx(&quot;p&quot;, null, &quot;The RNA vaccine process sounds reasonably straightforward, but as with all things in biology, things are a little more complicated.&quot;), mdx(&quot;p&quot;, null, &quot;The main issue is that simply injecting raw RNA into a cell is unlikely to work, so focus is on delivering RNA vaccines via lipid nanoparticles. This lipid container protects the RNA, and make uptake by the patient\u2019s cells easier and more reliable.&quot;), mdx(&quot;p&quot;, null, &quot;Of course, once the finer details are worked out, the fact remains that by leveraging what our cells already do so well, we might be able to get vaccines for COVID-19, future pandemics, other diseases, and perhaps even cancer, to a waiting world much faster than by trying to do it the traditional way.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[My DIY Smart Sprinklers]]></title><description><![CDATA[Smart sprinkler systems make caring for your garden dynamic and easy. How easy is it to make our own instead?]]></description><link>https://tommrodrigues.github.io/my-diy-smart-sprinklers</link><guid isPermaLink="false">https://tommrodrigues.github.io/my-diy-smart-sprinklers</guid><dc:creator><![CDATA[Tom Rodrigues]]></dc:creator><pubDate>Tue, 05 May 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
 
